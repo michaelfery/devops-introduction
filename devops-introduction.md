@@ -112,7 +112,7 @@ La qualité et la pertinence du produit fourni à l'utilisateur final est la seu
 
 ### DevOps is
 
-> Se concentre sur un MVP (**M**inimum **V**iable **P**roduct)
+> Se concentre sur une réalisation minimal apportant un maximum de valeur
 
 Note:
 Toute réalisation doit être itérative, pour accélérer l'arrivée de la boucle de feedback. En ce sens, on doit chercher le plus petit élément de réalisation qui apporte le maximum de valeur.
@@ -173,7 +173,7 @@ L'amélioration continue : cette démarche est basée sur l'expérimentation per
 > Refus de l'over-engineering
 
 Note:
-Il s’agit de garder un certain pragmatisme dans les fonctionnalités réalisées. Ne pas développer un tableau de bord d’Airbus quand une calculette suffit. Prenons l’exemple du principe de KISS (Keep it simple, stupid)
+Il s’agit de garder un certain pragmatisme dans les fonctionnalités réalisées. Ne pas développer un tableau de bord d’Airbus quand une calculette suffit. Prenons l’exemple du principe de KISS (Keep it simple, stupid, Keep it Smart & Simple)
 
 --
 
@@ -205,7 +205,7 @@ Les Pannes et les erreurs humaines sont inévitables. Par design, on doit les ci
 
 Note:
 Le partage d'outils doit répondre à un besoin de coopération et d'autonomie et pas seulement au besoin d'industrialisation ou de respect des standards.
-L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni nécessaire ni suffisant pour faire du DevOps.
+L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni nécessaire ni suffisant pour faire du DevOps, mais vous vous apercevrez que sans c'est quand même bien plus compliqué.
 
 --
 
@@ -220,10 +220,12 @@ L'automatisation est un vecteur d'autonomisation des acteurs et d'amélioration 
 
 ### DevOps is not
 
-> Les Devs sont root
+> Les Devs ont tous les droits
 
 Note:
-Le DevOps est un mouvement favorisant la coopération, pas le remplacement des Ops par des Dev. Il arrive que certains DEV aient besoin de privilèges, comme des droits root par exemple. Mais par nature même, le DevOps doit minimiser ce besoin. L'idée n'est pas d'autoriser tous les DEV à accéder aux ressources critiques, et pour cela il est nécessaire de bien cadrer le besoin.
+Le DevOps est un mouvement favorisant la coopération, pas le remplacement des Ops par des Dev.
+Il arrive que certains Dev aient besoin de privilèges, comme des droits d'accès par exemple. Mais par nature même, le DevOps doit minimiser ce besoin.
+L'idée n'est pas d'autoriser tous les Dev à accéder aux ressources critiques, et pour cela il est nécessaire de bien cadrer le besoin.
 
 --
 
@@ -238,10 +240,10 @@ Le DevOps n'implique pas la polyvalence de tous les acteurs. La coopération ét
 
 ### DevOps is not
 
-> Un Role
+> Un Rôle
 
 Note:
-Contrairement à une erreur répendue, le DevOps n'est pas un role. Comme nous le definnissons toute la journée, il s'agit d'un mouvement englobant les devs et les ops.
+Contrairement à une erreur répandue, le DevOps n'est pas un rôle. Comme nous le définissons toute la journée, il s'agit d'un mouvement englobant les devs et les ops.
 
 --
 
@@ -250,9 +252,7 @@ Contrairement à une erreur répendue, le DevOps n'est pas un role. Comme nous l
 > Une nouvelle équipe
 
 Note:
-Comme DevOps n'est pas un role, il ne peux etre nont plus une équipe. Le but de cette démarche est de rapprocher et d'améliorer la communication entre les Dev et les Ops. Rajouter une équipe entre les deux serais donc aller à l'encontre de cela.
-
---
+Comme DevOps n'est pas un role, il ne peux etre non plus une équipe. Le but de cette démarche est de rapprocher et d'améliorer la communication entre les Dev et les Ops. Rajouter une équipe entre les deux serait donc aller à l'encontre de cela.
 
 ---
 
