@@ -61,24 +61,6 @@ center: true
 
 #### Le mur de la confusion
 
---
-
-### Objectifs et démarches
-
----
-
-## DevOps is / DevOps is not
-
-<!-- .slide: data-state="chapter-page"-->
-
---
-
-### DevOps is
-
---
-
-### DevOps is not
-
 ---
 
 ## Lego 4 Devops (Atelier)
@@ -106,6 +88,60 @@ center: true
 --
 
 ### Outils
+
+---
+
+## DevOps is / DevOps is not
+
+<!-- .slide: data-state="chapter-page"-->
+
+--
+
+### DevOps is
+
+--
+
+### DevOps is
+
+> You build it, you run it
+>
+> -- _Werner Vogels_
+
+Note:
+Les DEV et les Ops sont (co-)responsable de ce qui arrive en Prod (y-compris dans les astreintes).
+
+--
+
+### DevOps is
+
+> Les OPS sont des facilitateurs, non des limiteurs.
+
+Note:
+Dans les domaines dont il est le garant, l’OPS doit être facilitateur (par son savoir-faire) et non-pas censeur.
+
+--
+
+### DevOps is
+
+> Measure Anything, Measure Everything
+>
+> -- _Etsy_
+
+Note:
+L’obsession de la mesure et de la traçabilité. Ce qui ne se mesure pas n’est qu’affaire d’opinion.
+
+--
+
+### DevOps is
+
+> Plan, do, check, act (PDCA)
+
+Note:
+La démarche d’amélioration continue, basée sur l’expérimentation perpétuelle et la mesure du résultat qui en ressort.
+
+--
+
+### DevOps is not
 
 ---
 
