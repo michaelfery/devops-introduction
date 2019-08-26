@@ -1,0 +1,198 @@
+/**
+ * SOAT theme for reveal.js. This is an extension for existing themes (works better with 'white' theme).
+ *
+ * By Michaël Fery, http://mfery.com
+ */
+
+
+/*********************************************
+* GLOBAL STYLES
+*********************************************/
+
+@font-face {
+  font-family: Barlow;
+  src: url('soat/fonts/Barlow-Regular.ttf');
+}
+
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal p,
+.reveal ul
+{
+  font-family: Barlow;
+}
+
+.reveal {
+  --main-bg-color: #00AD7D;
+  --main-title-color: #57FFD0;
+  --main-subtitle-color: white;
+  --main-font-color: black;
+  --main-slide-title-color: #00AD7D;
+  --main-progress-color: #57FFD0;
+}
+
+/*********************************************
+* HEADER STYLES
+*********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-transform: none;
+}
+ 
+ /*********************************************
+  * TITLE SLIDE STYLES
+  *********************************************/
+
+.reveal .slides .title {
+  padding: 0 40vh 0 0;
+  text-align: left !important;
+}
+
+.reveal .slides .title h1 {
+  color: var(--main-title-color);
+}
+
+.reveal .slides .title h2,
+.reveal .slides .title h3,
+.reveal .slides .title h4,
+.reveal .slides .title h5,
+.reveal .slides .title h6 {
+  color: var(--main-subtitle-color);
+}
+
+ /* .reveal .slides .title {
+  padding: 0 0 13vh 0;
+ } */
+ 
+ .reveal .slides .title h1 {
+   text-transform: uppercase;
+ }
+
+ .reveal .slides .title ul li {
+   color: white;
+ }
+
+  /*********************************************
+  * MAIN SLIDE STYLES
+  *********************************************/
+
+  .reveal .slides h1,
+  .reveal .slides h2,
+  .reveal .slides h3,
+  .reveal .slides h4,
+  .reveal .slides h5
+  {
+    color: var(--main-slide-title-color);
+  }
+
+ .reveal .slides ul li {
+   /* color: #BCD231; */
+   /* line-height: 4.5vh !important; */
+   /* margin: 0 0 1.2vh 0 !important; */
+ }
+
+ .reveal .slides ul li p {
+   /* margin: 15px 0 0px 0; */
+ }
+ 
+ .reveal .slides ul li ul {
+   font-size: 60%;
+ }
+ 
+ .reveal .slides ul li ul li {
+   color: var(--main-slide-title-color);
+   margin: 0 0 -1.2vh 0 !important;
+ }
+
+ /*********************************************
+  * FOOTER STYLES
+  *********************************************/
+
+.reveal #title-footer {
+  /* background-color: #262626 !important; */
+  /* height: 7vh !important; */
+  /* background-image: url('/soat/bottom.png') !important; */
+  /* background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: bottom right !important;  */
+}
+
+.reveal #title-footer p {
+  /* line-height: 6.6vh !important;
+  vertical-align: middle !important;
+  margin: 0 10vh 0 0 !important; */
+}
+
+.reveal footer p a {
+  color: white;
+}
+
+.reveal .slides {
+  padding: 0 0 10vh 0;
+}
+
+html.title-page div.slide-background-content {
+  background-image: url("/soat/title-page-bg.png") !important;
+  background-size: cover;
+  background-position: bottom right !important;
+}
+html.title-page .title h1,
+html.title-page .title h2 {
+  max-width: 70%;
+}
+
+html.chapter-page div.slide-background-content {
+  background-color: #63BDA2 !important;
+}
+html.chapter-page h1,
+html.chapter-page h2 {
+  color: white !important;
+  text-align: left !important;
+}
+
+html div.slide-background-content{
+  background-image: url("/soat/main-page-bg.png") !important;
+  background-size: contain;
+  background-position: bottom right !important;
+}
+
+.reveal .progress {
+  color: var(--main-progress-color) !important;
+}
+
+.reveal .slide-menu-button .fa,
+.reveal .chalkboard-button .fa{
+  color: var(--main-title-color)
+}
+
+.reveal .slide-menu-button,
+.reveal .chalkboard-button {
+  display: none !important;
+}
+
+.reveal footer {
+  display: none !important;
+}
+
+/* html.title-page div.slide-background-content,
+.slide-background {
+    background-color: white !important;
+    background-image: none !important;
+    -webkit-print-color-adjust: exact; 
+} */
+
+@media print {
+  html.title-page div.slide-background-content {
+    background-color: white !important;
+    background-image: none !important;
+    -webkit-print-color-adjust: exact; 
+  }
+}
