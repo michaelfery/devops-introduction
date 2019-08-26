@@ -108,13 +108,13 @@ center: true
 > -- _Werner Vogels_
 
 Note:
-Les DEV et les Ops sont (co-)responsable de ce qui arrive en Prod (y-compris dans les astreintes).
+Les Dev et les Ops sont (co-)responsable de ce qui arrive en Prod (y-compris dans les astreintes).
 
 --
 
 ### DevOps is
 
-> Les OPS sont des facilitateurs, non des limiteurs.
+> Les Ops sont des facilitateurs, non des limiteurs.
 
 Note:
 Dans les domaines dont il est le garant, l’OPS doit être facilitateur (par son savoir-faire) et non-pas censeur.
@@ -137,7 +137,7 @@ L’obsession de la mesure et de la traçabilité. Ce qui ne se mesure pas n’e
 > Plan, do, check, act (PDCA)
 
 Note:
-La démarche d’amélioration continue, basée sur l’expérimentation perpétuelle et la mesure du résultat qui en ressort.
+L'amélioration continue : cette démarche est basée sur l'expérimentation perpétuelle et la mesure du résultat qui en ressort.
 
 --
 
