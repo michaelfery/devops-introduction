@@ -103,6 +103,33 @@ center: true
 
 ### DevOps is
 
+> Centré sur le produit utilisateur
+
+Note:
+La qualité et la pertinence du produit fourni à l'utilisateur final est la seule chose qui importe.
+
+--
+
+### DevOps is
+
+> Se concentre sur une réalisation minimal apportant un maximum de valeur
+
+Note:
+Toute réalisation doit être itérative, pour accélérer l'arrivée de la boucle de feedback. En ce sens, on doit chercher le plus petit élément de réalisation qui apporte le maximum de valeur.
+
+--
+
+### DevOps is
+
+> Réduit la documentation à sa plus juste utilité
+
+Note:
+Elle peut même être remplacée par le partage des outils, des méthodes, du même espace de travail et les rituels de partage de connaissance (stand up meeting, peer-programming, démo).
+
+--
+
+### DevOps is
+
 > You build it, you run it
 >
 > -- _Werner Vogels_
@@ -114,7 +141,7 @@ Les Dev et les Ops sont (co-)responsable de ce qui arrive en Prod (y-compris dan
 
 ### DevOps is
 
-> Les Ops sont des facilitateurs, non des limiteurs.
+> Les Ops sont des facilitateurs, non des limiteurs
 
 Note:
 Dans les domaines dont il est le garant, l’OPS doit être facilitateur (par son savoir-faire) et non-pas censeur.
@@ -141,7 +168,91 @@ L'amélioration continue : cette démarche est basée sur l'expérimentation per
 
 --
 
+### DevOps is
+
+> Refus de l'over-engineering
+
+Note:
+Il s’agit de garder un certain pragmatisme dans les fonctionnalités réalisées. Ne pas développer un tableau de bord d’Airbus quand une calculette suffit. Prenons l’exemple du principe de KISS (Keep it simple, stupid, Keep it Smart & Simple)
+
+--
+
+### DevOps is
+
+> Testabilité
+
+Note:
+Toute réalisation n'est achevée que lorsque le test garantissant la conformité de son fonctionnement est associé.
+
+--
+
+### DevOps is
+
+> Tolérance aux pannes
+
+Note:
+Les Pannes et les erreurs humaines sont inévitables. Par design, on doit les circonscrire et mettre en place les contre-mesures qui rendent ces pannes indolores.
+
+--
+
 ### DevOps is not
+
+--
+
+### DevOps is not
+
+> Un outil permettant de tout gérer
+
+Note:
+Le partage d'outils doit répondre à un besoin de coopération et d'autonomie et pas seulement au besoin d'industrialisation ou de respect des standards.
+L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni nécessaire ni suffisant pour faire du DevOps, mais vous vous apercevrez que sans c'est quand même bien plus compliqué.
+
+--
+
+### DevOps is not
+
+> no-Ops
+
+Note:
+L'automatisation est un vecteur d'autonomisation des acteurs et d'amélioration des opérations. Le DevOps ne doit en aucun cas être compris comme un moyen de se décharger de sa responsabilité.
+
+--
+
+### DevOps is not
+
+> Les Devs ont tous les droits
+
+Note:
+Le DevOps est un mouvement favorisant la coopération, pas le remplacement des Ops par des Dev.
+Il arrive que certains Dev aient besoin de privilèges, comme des droits d'accès par exemple. Mais par nature même, le DevOps doit minimiser ce besoin.
+L'idée n'est pas d'autoriser tous les Dev à accéder aux ressources critiques, et pour cela il est nécessaire de bien cadrer le besoin.
+
+--
+
+### DevOps is not
+
+> Faire coder les Ops & administrer des machines aux Dev
+
+Note:
+Le DevOps n'implique pas la polyvalence de tous les acteurs. La coopération étroite ne doit pas donner lieu à une inversion des rôles. C'est au contraire une façon de reconnaître les forces et les faiblesses de chacun et d'en tirer le meilleur, collectivement.
+
+--
+
+### DevOps is not
+
+> Un Rôle
+
+Note:
+Contrairement à une erreur répandue, le DevOps n'est pas un rôle. Comme nous le définissons toute la journée, il s'agit d'un mouvement englobant les devs et les ops.
+
+--
+
+### DevOps is not
+
+> Une nouvelle équipe
+
+Note:
+Comme DevOps n'est pas un role, il ne peux etre non plus une équipe. Le but de cette démarche est de rapprocher et d'améliorer la communication entre les Dev et les Ops. Rajouter une équipe entre les deux serait donc aller à l'encontre de cela.
 
 ---
 
