@@ -35,9 +35,9 @@ center: true
 ## Agenda
 
 - Introduction
-- DevOps is / DevOps is not
 - Lego 4 DevOps (Atelier)
 - Concepts
+- DevOps is / DevOps is not
 - Impacts
 - Bénéfices
 - Démo / REx
@@ -59,35 +59,117 @@ center: true
 
 #### Cousin du mouvement Agile
 
-#### Le mur de la confusion
-
 ---
 
 ## Lego 4 Devops (Atelier)
 
-<!-- .slide: data-state="chapter-page"-->
+<!-- .slide: data-state="chapter-page" -->
+
+---
+
+## Origines ... la scène post-atelier
+
+### Le mur de la confusion <!-- .element: class="fragment" data-fragment-index="1" -->
+
+Note:
+Débriefer sur l'atelier lego sur Devops
 
 ---
 
 ## Concepts
 
+DevOps **n’est pas** une **méthodologie**
+
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+C'est une **culture**
+
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+Note:
+Ici on parle de ce que cela implique, et on verra plus tard les impact que cela doit, et peux avoir.
+DevOps est une culture où Dev et Ops collaborent étroitement
+Comme pour l'agilité, l'adhésion des équipes à cette culture est primordiale pour mettre en place les next steps du DevOps
+
 <!-- .slide: data-state="chapter-page"-->
+
+--
+
+### Définition
+
+> DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.
+>
+> -- _Donovan Brown_
+
+Note:
+En parler pour lancer les 4 parties suivantes
 
 --
 
 ### Besoin
 
+> Notre plus haute priorité est de satisfaire le client en livrant rapidement et régulièrement des fonctionnalités à grande valeur ajoutée.
+>
+> -- _1<sup>er</sup> principe du « Manifeste agile »_
+
+--
+
+### Besoin
+
+Apporter de la valeur aux utilisateurs finaux plus rapidement et manière plus sécurisée/sécurisante :
+
+- Besoins business de réduire le **Time to Market**
+- **Accélérer les livraisons** en allégeant les processus tout en **gardant/augmentant la fiabilité**
+  minimiser l'erreur humaine, accélérer la boucle de feedback et viser l'amélioration continue
+
 --
 
 ### Facteur Humain
+
+- partage de responsabilité
+- échange
+- collaboration
+- confiance
+
+- Prendre le temps de créer, d'évangéliser cette culture qu'est le DevOps et d'accompagner sa mise en place
+- Co-localiser les équipe pour permettre une meilleur collaboration
+- L'engagement de l'ensemble des acteurs sur la chaîne de production de valeur
+- La collaboration des équipes plutot que le protectionisme
+- Le partage d'informations et de responsabilités
+
+note:
+engagement: objectif commun et partagé
+partage = communication
 
 --
 
 ### Processus
 
+- Plus d'échange au plus tot afin de connaitre les besoisn et contraintes des équipes
+- première boucle de feedback
+
 --
 
 ### Outils
+
+- outils de communication (tickets, discussion, meetings, ...)
+- Methodologies communes
+- Partager des livrables communs et acceptés de tous, qu'il soient documentaire ou binaire
+- Automatisation
+- Chaine d’intégration et de livraison continues
+
+---
+
+### CALMS
+
+- Culture
+- Automatisation
+- Lean
+- Mesure
+- Solidarité
+
+Note:
+"Lean" => Amélioration continue
 
 ---
 
