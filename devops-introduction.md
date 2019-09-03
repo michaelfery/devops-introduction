@@ -35,9 +35,9 @@ center: true
 ## Agenda
 
 - Introduction
-- DevOps is / DevOps is not
 - Lego 4 DevOps (Atelier)
 - Concepts
+- DevOps is / DevOps is not
 - Impacts
 - Bénéfices
 - Démo / REx
@@ -59,35 +59,164 @@ center: true
 
 #### Cousin du mouvement Agile
 
-#### Le mur de la confusion
-
 ---
 
 ## Lego 4 Devops (Atelier)
 
-<!-- .slide: data-state="chapter-page"-->
+<!-- .slide: data-state="chapter-page" -->
+
+---
+
+## Origines ... la scène post-atelier
+
+### Le mur de la confusion <!-- .element: class="fragment" data-fragment-index="1" -->
+
+Note:
+Débriefer sur l'atelier lego sur Devops
+
+--
+
+### Ce que veulent les Dev
+
+- le développement de nouvelles fonctionnalités
+- la qualité (non-régression, nombre de bugs réduit)
+- la rapidité de mise à disposition aux utilisateurs finaux
+- le feedback
+
+Culture du **produit** en y apportant du **changement**
+
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+--
+
+### Ce que veulent les Ops
+
+- la stabilité et la robustesse,
+- la maîtrise,
+- la performance et la sécurité
+- les possibilités d'industrialisation avec une certaine efficience économique
+
+Culture du **service** en y apportant de la **stabilité**
+
+ <!-- .element: class="fragment" data-fragment-index="1" -->
+
+--
+
+### Le mur de la confusion
+
+![Le mur de la confusion](./media/mur-de-la-confusion.png)
+
+Note:
+Chaque équipe se reconnaît et défend la légitimité de ses propres objectifs.
+Ils n'ont pas tort, et c'est la qu'il y a confusion : Ces objectifs sont des objectifs intermédiaires et non exclusifs.
+C'est ce qu'on appelle le mur de la confusion.
+
+--
+
+### Les causes de la confusion
+
+- objectifs non alignés
+- organisation en silo de ces deux équipes
+- Les équipes n'évoluent pas dans les même échelles de temps
+- language et outils différents
+- Méconnaissance des contraintes
 
 ---
 
 ## Concepts
 
+DevOps **n’est pas** une **méthodologie**
+
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+C'est une **culture**
+
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+Note:
+Ici on parle de ce que cela implique, et on verra plus tard les impacts que cela doit, et peut avoir.
+DevOps est une culture où Dev et Ops collaborent étroitement
+Comme pour l'agilité, l'adhésion des équipes à cette culture est primordiale pour mettre en place les next steps du DevOps
+
 <!-- .slide: data-state="chapter-page"-->
+
+--
+
+### Définition
+
+> DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.
+>
+> -- _Donovan Brown_
+
+Note:
+En parler pour lancer les 4 parties suivantes
 
 --
 
 ### Besoin
 
+> Notre plus haute priorité est de satisfaire le client en livrant rapidement et régulièrement des fonctionnalités à grande valeur ajoutée.
+>
+> -- _1<sup>er</sup> principe du « Manifeste agile »_
+
+--
+
+### Besoin
+
+Apporter de la valeur aux utilisateurs finaux plus rapidement et manière plus sécurisée/sécurisante :
+
+- Besoins business de réduire le **Time to Market**
+- **Accélérer les livraisons** en allégeant les processus tout en **gardant/augmentant la fiabilité**
+  minimiser l'erreur humaine, accélérer la boucle de feedback et viser l'amélioration continue
+
 --
 
 ### Facteur Humain
+
+- partage de responsabilité
+- échange
+- collaboration
+- confiance
+
+- Prendre le temps de créer, d'évangéliser cette culture qu'est le DevOps et d'accompagner sa mise en place
+- Co-localiser les équipes pour permettre une meilleur collaboration
+- L'engagement de l'ensemble des acteurs sur la chaîne de production de valeur
+- La collaboration des équipes plutôt que le protectionnisme
+- Le partage d'informations et de responsabilités
+
+note:
+engagement: objectif commun et partagé
+partage = communication
 
 --
 
 ### Processus
 
+- Plus d'échange au plus tôt afin de connaitre les besoins et contraintes des équipes
+- première boucle de feedback
+
 --
 
 ### Outils
+
+- Outils de communication (tickets, discussion, meetings, ...)
+- Methodologies communes
+- Partager des livrables communs et acceptés de tous, qu'il soient documentaires ou binaires
+- Automatisation
+- Chaine d’intégration et de livraison continue
+
+---
+
+### CALMS
+
+- Culture
+- Automatisation
+- Lean
+- Mesure
+- Solidarité
+
+Note:
+"Lean" => Amélioration continue
 
 ---
 
@@ -366,16 +495,15 @@ Et plus elles travaillent ensemble, plus elles sont heureuses.
 
 Note:
 Time-To-Market
+
 - Amélioration du temps nécessaire à la livraison de résultats
 - C'est probablement le bénéfice que les utilisateurs ou PO comprennent le mieux
-Customer experience
+  Customer experience
 - 70% des DSI remontent une aélioration de l'XP utilisateur après la mise en place du DevOps
-Résolution de problèmes
+  Résolution de problèmes
 - Plus un problème est long à résoudre, plus la société perd d'argent
-Innovation
+  Innovation
 - plus les process sont rodées et efficaces, plus vos équipes auront de temps dégagé pour brainstormer et déveloper de nouvelles idées, et plus l'expérimentation sera aisée et rapide
-
-
 
 ---
 
