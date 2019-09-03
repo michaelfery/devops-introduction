@@ -199,7 +199,7 @@ partage = communication
 
 ### Outils
 
-- outils de communication (tickets, discussion, meetings, ...)
+- Outils de communication (tickets, discussion, meetings, ...)
 - Methodologies communes
 - Partager des livrables communs et acceptés de tous, qu'il soient documentaires ou binaires
 - Automatisation
