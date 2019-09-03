@@ -81,6 +81,7 @@ Débriefer sur l'atelier lego sur Devops
 - le développement de nouvelles fonctionnalités
 - la qualité (non-régression, nombre de bugs réduit)
 - la rapidité de mise à disposition aux utilisateurs finaux
+- le feedback
 
 Culture du **produit** en y apportant du **changement**
 
@@ -106,17 +107,17 @@ Culture du **service** en y apportant de la **stabilité**
 ![Le mur de la confusion](./media/mur-de-la-confusion.png)
 
 Note:
-Chaque équipe ce reconnaît et défend la légitimité de ses propres objectifs.
-Ils n'ont pas tord, et c'est la qu'il y a confusion : Ces objectifs sont des objectifs intermédiaires et non exclusifs.
-C'est ce qu'on appel le mur de la confusion.
+Chaque équipe se reconnaît et défend la légitimité de ses propres objectifs.
+Ils n'ont pas tort, et c'est la qu'il y a confusion : Ces objectifs sont des objectifs intermédiaires et non exclusifs.
+C'est ce qu'on appelle le mur de la confusion.
 
 --
 
 ### Les causes de la confusion
 
-- objectifs nont alignés
-- organisation en silo de ces deux équipe
-- Les équipes n'évoluent pas dans les même échels de temps
+- objectifs non alignés
+- organisation en silo de ces deux équipes
+- Les équipes n'évoluent pas dans les même échelles de temps
 - language et outils différents
 - Méconnaissance des contraintes
 
@@ -133,7 +134,7 @@ C'est une **culture**
 <!-- .element: class="fragment" data-fragment-index="2" -->
 
 Note:
-Ici on parle de ce que cela implique, et on verra plus tard les impact que cela doit, et peux avoir.
+Ici on parle de ce que cela implique, et on verra plus tard les impacts que cela doit, et peut avoir.
 DevOps est une culture où Dev et Ops collaborent étroitement
 Comme pour l'agilité, l'adhésion des équipes à cette culture est primordiale pour mettre en place les next steps du DevOps
 
@@ -178,9 +179,9 @@ Apporter de la valeur aux utilisateurs finaux plus rapidement et manière plus s
 - confiance
 
 - Prendre le temps de créer, d'évangéliser cette culture qu'est le DevOps et d'accompagner sa mise en place
-- Co-localiser les équipe pour permettre une meilleur collaboration
+- Co-localiser les équipes pour permettre une meilleur collaboration
 - L'engagement de l'ensemble des acteurs sur la chaîne de production de valeur
-- La collaboration des équipes plutot que le protectionisme
+- La collaboration des équipes plutôt que le protectionnisme
 - Le partage d'informations et de responsabilités
 
 note:
@@ -191,7 +192,7 @@ partage = communication
 
 ### Processus
 
-- Plus d'échange au plus tot afin de connaitre les besoisn et contraintes des équipes
+- Plus d'échange au plus tôt afin de connaitre les besoins et contraintes des équipes
 - première boucle de feedback
 
 --
@@ -200,9 +201,9 @@ partage = communication
 
 - outils de communication (tickets, discussion, meetings, ...)
 - Methodologies communes
-- Partager des livrables communs et acceptés de tous, qu'il soient documentaire ou binaire
+- Partager des livrables communs et acceptés de tous, qu'il soient documentaires ou binaires
 - Automatisation
-- Chaine d’intégration et de livraison continues
+- Chaine d’intégration et de livraison continue
 
 ---
 
