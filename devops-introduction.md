@@ -329,6 +329,7 @@ Les transitions organisationnelles ne sont pas connues pour être rapides, la mi
 - Amelioration continue
   - automatisation de la validation des changements
   - visualisation des métriques de productivité et de qualité
+- Flexibilité et agilité
 
 Note:
 Les entreprises recourent au DevOps pour résoudre les points de contentions. Ces derniers varient en fonction de la responsabilité des équipes IT, chacun voyant un intérêt particulier à installer une approche DevOps.
@@ -345,6 +346,36 @@ Les entreprises recourent au DevOps pour résoudre les points de contentions. Ce
 - Efficacité
 - Estime de soi
 - Confiance
+- Engagement
+- Collaboration
+- Montée en compétence (cross-skilling)
+- Respect du top-management
+
+Note: Globalement il s'agit du moral des équipes
+Mieux les équipes communiquent, mieux elles travaillent ensemble
+Et plus elles travaillent ensemble, plus elles sont heureuses.
+
+--
+
+### Bénéfices business
+
+- Time-to-market
+- Customer experience
+- Résolution de problèmes
+- Temps pour l'innovation
+
+Note:
+Time-To-Market
+- Amélioration du temps nécessaire à la livraison de résultats
+- C'est probablement le bénéfice que les utilisateurs ou PO comprennent le mieux
+Customer experience
+- 70% des DSI remontent une aélioration de l'XP utilisateur après la mise en place du DevOps
+Résolution de problèmes
+- Plus un problème est long à résoudre, plus la société perd d'argent
+Innovation
+- plus les process sont rodées et efficaces, plus vos équipes auront de temps dégagé pour brainstormer et déveloper de nouvelles idées, et plus l'expérimentation sera aisée et rapide
+
+
 
 ---
 
