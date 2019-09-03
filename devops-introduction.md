@@ -293,6 +293,23 @@ Besoin de plateformes adaptées (Cloud, Conteneurs, ...) pour faciliter l'automa
 Note:
 Chaque acteur du projet garde sa compétence et son expertise mais doit partager ses contraintes et collaborer au maximum
 
+--
+
+### Impacts business
+
+- Money, money, money
+  - Quality isn't cheap
+- Une transition lente (à l'echelle de l'IT)
+  - 85% des migrations/adoption DevOps prennent un an
+- Une décision à bien mûrir
+
+Note:
+Les transitions organisationnelles ne sont pas connues pour être rapides, la mise en place de l'agilité au préalable peut aider
+
+--
+
+![DevOps impacts](./media/devops-impacts-kms-technology.png)
+
 ---
 
 ## Bénéfices
