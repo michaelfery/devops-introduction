@@ -74,6 +74,52 @@ center: true
 Note:
 Débriefer sur l'atelier lego sur Devops
 
+--
+
+### Ce que veulent les Dev
+
+- le développement de nouvelles fonctionnalités
+- la qualité (non-régression, nombre de bugs réduit)
+- la rapidité de mise à disposition aux utilisateurs finaux
+
+Culture du **produit** en y apportant du **changement**
+
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+--
+
+### Ce que veulent les Ops
+
+- la stabilité et la robustesse,
+- la maîtrise,
+- la performance et la sécurité
+- les possibilités d'industrialisation avec une certaine efficience économique
+
+Culture du **service** en y apportant de la **stabilité**
+
+ <!-- .element: class="fragment" data-fragment-index="1" -->
+
+--
+
+### Le mur de la confusion
+
+![Le mur de la confusion](./media/mur-de-la-confusion.png)
+
+Note:
+Chaque équipe ce reconnaît et défend la légitimité de ses propres objectifs.
+Ils n'ont pas tord, et c'est la qu'il y a confusion : Ces objectifs sont des objectifs intermédiaires et non exclusifs.
+C'est ce qu'on appel le mur de la confusion.
+
+--
+
+### Les causes de la confusion
+
+- objectifs nont alignés
+- organisation en silo de ces deux équipe
+- Les équipes n'évoluent pas dans les même échels de temps
+- language et outils différents
+- Méconnaissance des contraintes
+
 ---
 
 ## Concepts
