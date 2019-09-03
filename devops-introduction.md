@@ -494,16 +494,15 @@ Et plus elles travaillent ensemble, plus elles sont heureuses.
 
 Note:
 Time-To-Market
+
 - Amélioration du temps nécessaire à la livraison de résultats
 - C'est probablement le bénéfice que les utilisateurs ou PO comprennent le mieux
-Customer experience
+  Customer experience
 - 70% des DSI remontent une aélioration de l'XP utilisateur après la mise en place du DevOps
-Résolution de problèmes
+  Résolution de problèmes
 - Plus un problème est long à résoudre, plus la société perd d'argent
-Innovation
+  Innovation
 - plus les process sont rodées et efficaces, plus vos équipes auront de temps dégagé pour brainstormer et déveloper de nouvelles idées, et plus l'expérimentation sera aisée et rapide
-
-
 
 ---
 
