@@ -354,7 +354,7 @@ Time-To-Market
 Customer experience
 - 70% des DSI remontent une aélioration de l'XP utilisateur après la mise en place du DevOps
 Résolution de problèmes
-- Plus un problème est olng à résoudre, plus la société perd d'argent
+- Plus un problème est long à résoudre, plus la société perd d'argent
 Innovation
 - plus les process sont rodées et efficaces, plus vos équipes auront de temps dégagé pour brainstormer et déveloper de nouvelles idées, et plus l'expérimentation sera aisée et rapide
 
