@@ -176,7 +176,7 @@ Agile++
 [agilemanifesto.org](https://agilemanifesto.org)
 
 Note:
-Introduire Manifeste Agile - Février 2001 naissance du manifest agile
+Introduire Manifeste Agile - Février 2001 naissance du manifeste agile
 
 Lire Définition
 
