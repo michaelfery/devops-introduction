@@ -1,5 +1,5 @@
 ---
-theme: 'black'
+theme: 'white'
 transition: 'slide'
 # highlightTheme: "darkula"
 slideNumber: false
