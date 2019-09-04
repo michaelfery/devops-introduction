@@ -385,6 +385,48 @@ Comme DevOps n'est pas un role, il ne peux etre non plus une équipe. Le but de 
 
 ---
 
+## Continuous Delivery
+
+<!-- .slide: data-state="chapter-page"-->
+
+Note:
+Rappel DevOps: union des gens, des process et des outils pour délivrer RAPIDEMENT de la valeur aux utilisateurs finaux.
+Un processus de livraison continu implique de pouvoir livrer à tout moment, avec une qualité élevée. Cela contraste avec ce que l'on peut voir en général.
+
+--
+
+## Continuous Delivery: Pourquoi ?
+
+On peut publier le correctif ?
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+- NON! Fred est en vacances et c'est lui a les droits<!-- .element: class="fragment" data-fragment-index="2" -->
+- NON! Nous n’avons pas terminé le cycle complet d’assurance qualité<!-- .element: class="fragment" data-fragment-index="3" -->
+- NON! Le processus de publication n'est pas clair<!-- .element: class="fragment" data-fragment-index="4" -->
+
+Note:
+Prenons l'exemple d'une application mobile.
+NON! Fred est en vacances et il est le seul membre de l’équipe à pouvoir créer, signer pour distribution et déposer sur le store.
+NON! Nous n’avons pas terminé le cycle complet d’assurance qualité de la branche principale actuelle et il faudra trois jours pour effectuer les tests de régression manuels. En passant, qui a un iPhone 4S sous iOS 9.2 pour faire un test?
+NON! Nous ne savons pas exactement combien de temps le processus de publication prend; la validation peut prendre entre 5 et 12 jours.
+Cela vous semble familier?
+
+--
+
+## Continuous Delivery: Et chez vous ?
+
+- À quelle fréquence publiez-vous des mises à jour?<!-- .element: class="fragment" data-fragment-index="1" -->
+  - Quelques fois par an? Trimestriel? Mensuel, bi-hebdomadaire? Tous les jours? Plusieurs fois par jour?<!-- .element: class="fragment" data-fragment-index="2" -->
+- C'est absurbe, non ?<!-- .element: class="fragment" data-fragment-index="3" -->
+- Vraiment ?!<!-- .element: class="fragment" data-fragment-index="4" -->
+
+Note:
+Pensez à l'une de vos applications. À quelle fréquence publiez-vous des mises à jour? Quelques fois par an? Trimestriel? Mensuel, bi-hebdomadaire? Tous les jours? Plusieurs fois par jour? Non! C'est absurde, non?
+Est-ce vraiment absurde ?
+Certaines équipes techniques d’applications de niveau mondial sont en mesure de livrer leurs applications de manière régulière toutes les semaines ou toutes les deux semaines avec une qualité élevée. Comment parviennent-elles à faire cela? Une partie de l'explication est l'engagement dans un processus de livraison continu sous une forme ou une autre. Examinons quelques-uns des challenges et des bénéfices du DevOps et, plus important encore, pourquoi cela est accessible à tous. Vous n'avez pas besoin d'être une start-up soutenue par une entreprise ou une énorme entreprise pour commencer!
+
+---
+
 ## Impacts
 
 <!-- .slide: data-state="chapter-page"-->
@@ -510,6 +552,10 @@ Time-To-Market
 ## Démo / REx
 
 <!-- .slide: data-state="chapter-page"-->
+
+--
+
+![DevOps Loop](./media/devops-loop.png)
 
 ---
 
