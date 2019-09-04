@@ -134,11 +134,15 @@ C'est une **culture**
 <!-- .element: class="fragment" data-fragment-index="2" -->
 
 Note:
-Ici on parle de ce que cela implique, et on verra plus tard les impacts que cela doit, et peut avoir.
-DevOps est une culture où Dev et Ops collaborent étroitement
-Comme pour l'agilité, l'adhésion des équipes à cette culture est primordiale pour mettre en place les next steps du DevOps
+Le DevOps est né. On le définit ?
 
-<!-- .slide: data-state="chapter-page"-->
+Ce que n'est pas le DevOps
+
+DevOps est une Culture
+
+Stop opposition Dev vs Ops
+
+<!-- .slide: data-state="chapter-page" -->
 
 --
 
@@ -148,26 +152,60 @@ Comme pour l'agilité, l'adhésion des équipes à cette culture est primordiale
 >
 > -- _Donovan Brown_
 
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
 Note:
-En parler pour lancer les 4 parties suivantes
+Donovan Brown, responsable DevOps chez Microsoft
+
+Slide la plus importante !
+
+Lire Definition
+
+Qui ? Pourquoi ? Comment ?
+
+Agile++
 
 --
 
-### Besoin
+### Principe Agile
 
 > Notre plus haute priorité est de satisfaire le client en livrant rapidement et régulièrement des fonctionnalités à grande valeur ajoutée.
 >
 > -- _1<sup>er</sup> principe du « Manifeste agile »_
 
+[agilemanifesto.org](https://agilemanifesto.org)
+
+Note:
+Introduire Manifeste Agile - Février 2001 naissance du manifest agile
+
+Lire Définition
+
+Parallèle : Continuous Delivery
+
+Et mes objectifs ?
+
 --
 
 ### Besoin
 
-Apporter de la valeur aux utilisateurs finaux plus rapidement et manière plus sécurisée/sécurisante :
+Apporter de la valeur aux utilisateurs finaux plus rapidement et de manière plus sécurisante :
 
-- Besoins business de réduire le **Time to Market**
-- **Accélérer les livraisons** en allégeant les processus tout en **gardant/augmentant la fiabilité**
-  minimiser l'erreur humaine, accélérer la boucle de feedback et viser l'amélioration continue
+- Réduire le **Time to Market**
+- **Accélérer la boucle de _feedback_**
+- **Accélérer les livraisons** en allégeant les processus
+- **Garder/augmenter la fiabilité** pour minimiser l'erreur humaine
+- **Amélioration continue**
+
+Note:
+Ramener à la réalité
+
+Time-To-Market : livrer vite les nouveautés et fix
+
+Utilisateur final : qualité feedback
+
+Accélération VS Qualité ? Non!
+
+Amélioration continue
 
 --
 
@@ -398,6 +436,7 @@ Un processus de livraison continu implique de pouvoir livrer à tout moment, ave
 ## Continuous Delivery: Pourquoi ?
 
 On peut publier le correctif ?
+
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 - NON! Fred est en vacances et c'est lui qui a les droits<!-- .element: class="fragment" data-fragment-index="2" -->
