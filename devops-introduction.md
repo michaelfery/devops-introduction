@@ -247,11 +247,11 @@ partage = communication
 
 ### CALMS
 
-- Culture
-- Automatisation
-- Lean
-- Mesure
-- Solidarité
+- **C**ulture
+- **A**utomation
+- **L**ean
+- **M**easurement
+- **S**haring
 
 Note:
 "Lean" => Amélioration continue
