@@ -400,7 +400,7 @@ Un processus de livraison continu implique de pouvoir livrer à tout moment, ave
 On peut publier le correctif ?
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
-- NON! Fred est en vacances et c'est lui a les droits<!-- .element: class="fragment" data-fragment-index="2" -->
+- NON! Fred est en vacances et c'est lui qui a les droits<!-- .element: class="fragment" data-fragment-index="2" -->
 - NON! Nous n’avons pas terminé le cycle complet d’assurance qualité<!-- .element: class="fragment" data-fragment-index="3" -->
 - NON! Le processus de publication n'est pas clair<!-- .element: class="fragment" data-fragment-index="4" -->
 
