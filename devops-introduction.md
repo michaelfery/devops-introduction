@@ -61,7 +61,7 @@ center: true
 
 ---
 
-## Lego 4 Devops (Atelier)
+## Lego 4 DevOps (Atelier)
 
 <!-- .slide: data-state="chapter-page" -->
 
@@ -69,36 +69,34 @@ center: true
 
 ## Origines ... la scène post-atelier
 
-### Le mur de la confusion <!-- .element: class="fragment" data-fragment-index="1" -->
-
 Note:
-Débriefer sur l'atelier lego sur Devops
+Débriefer sur l'atelier lego sur DevOps
 
 --
 
 ### Ce que veulent les Dev
 
-- le développement de nouvelles fonctionnalités
-- la qualité (non-régression, nombre de bugs réduit)
-- la rapidité de mise à disposition aux utilisateurs finaux
-- le feedback
+- le développement de nouvelles fonctionnalités<!-- .element: class="fragment fade-in" data-fragment-index="1" -->
+- la qualité (non-régression, nombre de bugs réduit)<!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+- la rapidité de mise à disposition aux utilisateurs finaux<!-- .element: class="fragment fade-in" data-fragment-index="3" -->
+- le feedback<!-- .element: class="fragment fade-in" data-fragment-index="3" -->
 
 Culture du **produit** en y apportant du **changement**
 
-<!-- .element: class="fragment" data-fragment-index="1" -->
+<!-- .element: class="fragment fade-in" data-fragment-index="4" -->
 
 --
 
 ### Ce que veulent les Ops
 
-- la stabilité et la robustesse,
-- la maîtrise,
-- la performance et la sécurité
-- les possibilités d'industrialisation avec une certaine efficience économique
+- la stabilité et la robustesse<!-- .element: class="fragment fade-in" data-fragment-index="1" -->
+- la maîtrise<!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+- la performance et la sécurité<!-- .element: class="fragment fade-in" data-fragment-index="3" -->
+- les possibilités d'industrialisation avec une certaine efficience économique<!-- .element: class="fragment fade-in" data-fragment-index="4" -->
 
 Culture du **service** en y apportant de la **stabilité**
 
- <!-- .element: class="fragment" data-fragment-index="1" -->
+<!-- .element: class="fragment fade-in" data-fragment-index="5" -->
 
 --
 
@@ -211,20 +209,24 @@ Amélioration continue
 
 ### Facteur Humain
 
+- Donner le temps
 - partage de responsabilité
 - échange
 - collaboration
 - confiance
 
-- Prendre le temps de créer, d'évangéliser cette culture qu'est le DevOps et d'accompagner sa mise en place
-- Co-localiser les équipes pour permettre une meilleur collaboration
-- L'engagement de l'ensemble des acteurs sur la chaîne de production de valeur
-- La collaboration des équipes plutôt que le protectionnisme
-- Le partage d'informations et de responsabilités
+Note:
+Il faut du temps pour évangeliser, accompagner et assimiler
 
-note:
-engagement: objectif commun et partagé
-partage = communication
+Communication sur les responsabilités de chacuns. Attention un Dev != administrer serveur
+
+Améliorer et augmenter les échanges, comme de la co-localisation ou des outils
+
+Partage des informations et des contraintes entre Dev et Ops
+
+collaboration des équipes plutôt que le protectionnisme
+
+Un objectif commun et partagé afin d'instauré une confiance entre les équipes
 
 --
 
