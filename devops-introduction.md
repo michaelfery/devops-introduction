@@ -76,23 +76,23 @@ Débriefer sur l'atelier lego sur DevOps
 
 ### Ce que veulent les Dev
 
-- le développement de nouvelles fonctionnalités<!-- .element: class="fragment fade-in" data-fragment-index="1" -->
-- la qualité (non-régression, nombre de bugs réduit)<!-- .element: class="fragment fade-in" data-fragment-index="2" -->
-- la rapidité de mise à disposition aux utilisateurs finaux<!-- .element: class="fragment fade-in" data-fragment-index="3" -->
-- le feedback<!-- .element: class="fragment fade-in" data-fragment-index="3" -->
+- Le développement de nouvelles fonctionnalités<!-- .element: class="fragment fade-in" data-fragment-index="1" -->
+- La qualité (non-régression, nombre de <!-- .element: class="fragment fade-in" data-fragment-index="2" -->_bugs_<!-- .element: class="fragment fade-in" data-fragment-index="2" --> réduit)<!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+- La rapidité de mise à disposition aux utilisateurs finaux<!-- .element: class="fragment fade-in" data-fragment-index="3" -->
+- Le<!-- .element: class="fragment fade-in" data-fragment-index="4" --> _feedback_<!-- .element: class="fragment fade-in" data-fragment-index="4" -->
 
 Culture du **produit** en y apportant du **changement**
 
-<!-- .element: class="fragment fade-in" data-fragment-index="4" -->
+<!-- .element: class="fragment fade-in" data-fragment-index="5" -->
 
 --
 
 ### Ce que veulent les Ops
 
-- la stabilité et la robustesse<!-- .element: class="fragment fade-in" data-fragment-index="1" -->
-- la maîtrise<!-- .element: class="fragment fade-in" data-fragment-index="2" -->
-- la performance et la sécurité<!-- .element: class="fragment fade-in" data-fragment-index="3" -->
-- les possibilités d'industrialisation avec une certaine efficience économique<!-- .element: class="fragment fade-in" data-fragment-index="4" -->
+- La stabilité et la robustesse<!-- .element: class="fragment fade-in" data-fragment-index="1" -->
+- La maîtrise<!-- .element: class="fragment fade-in" data-fragment-index="2" -->
+- La performance et la sécurité<!-- .element: class="fragment fade-in" data-fragment-index="3" -->
+- Les possibilités d'industrialisation avec une certaine efficience économique<!-- .element: class="fragment fade-in" data-fragment-index="4" -->
 
 Culture du **service** en y apportant de la **stabilité**
 
@@ -113,17 +113,17 @@ C'est ce qu'on appelle le mur de la confusion.
 
 ### Les causes de la confusion
 
-- objectifs non alignés
-- organisation en silo de ces deux équipes
-- Les équipes n'évoluent pas dans les même échelles de temps
-- language et outils différents
+- Objectifs non alignés
+- Organisation en silo de ces deux équipes
+- Les équipes n'évoluent pas dans les mêmes échelles de temps
+- Language et outils différents
 - Méconnaissance des contraintes
 
 ---
 
 ## Concepts
 
-DevOps **n’est pas** une **méthodologie**
+DevOps **n’est pas** une **méthode**
 
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
@@ -188,7 +188,7 @@ Et mes objectifs ?
 
 Apporter de la valeur aux utilisateurs finaux plus rapidement et de manière plus sécurisante :
 
-- Réduire le **Time to Market**
+- Réduire le **_Time to Market_**
 - **Accélérer la boucle de _feedback_**
 - **Accélérer les livraisons** en allégeant les processus
 - **Garder/augmenter la fiabilité** pour minimiser l'erreur humaine
@@ -209,11 +209,10 @@ Amélioration continue
 
 ### Facteur Humain
 
-- donner le temps
-- partage de responsabilité
-- échange
-- collaboration
-- confiance
+- Donner le temps
+- Partage de responsabilité
+- Echange, collaboration
+- Confiance
 
 Note:
 Il faut du temps pour évangeliser, accompagner et assimiler
@@ -232,28 +231,28 @@ Un objectif commun et partagé afin d'instaurer une confiance entre les équipes
 
 ### Processus
 
-- Plus d'échange au plus tôt afin de connaitre les besoins et contraintes des équipes
-- première boucle de feedback
+- Plus d'échanges au plus tôt afin de connaitre les besoins et les contraintes des équipes
+- Première boucle de _feedback_
 
 --
 
 ### Outils
 
-- Outils de communication (tickets, discussion, meetings, ...)
-- Methodologies communes
-- Partager des livrables communs et acceptés de tous, qu'il soient documentaires ou binaires
+- Outils de communication (tickets, discussion, _meetings_, ...)
+- Methodes communes
+- Partager des livrables communs et acceptés de tous (qu'il soient documentaires ou binaires)
 - Automatisation
-- Chaine d’intégration et de livraison continue
+- Chaîne d’intégration et de livraison continue
 
 ---
 
 ### CALMS
 
-- **C**ulture
-- **A**utomation
-- **L**ean
-- **M**easurement
-- **S**haring
+- _**C**ulture_
+- _**A**utomation_
+- _**L**ean_
+- _**M**easurement_
+- _**S**haring_
 
 Note:
 "Lean" => Amélioration continue
@@ -281,7 +280,7 @@ La qualité et la pertinence du produit fourni à l'utilisateur final est la seu
 
 ### DevOps is
 
-> Se concentre sur une réalisation minimal apportant un maximum de valeur
+> Se concentre sur une réalisation minimale apportant un maximum de valeur
 
 Note:
 Toute réalisation doit être itérative, pour accélérer l'arrivée de la boucle de feedback. En ce sens, on doit chercher le plus petit élément de réalisation qui apporte le maximum de valeur.
@@ -339,7 +338,7 @@ L'amélioration continue : cette démarche est basée sur l'expérimentation per
 
 ### DevOps is
 
-> Refus de l'over-engineering
+> Refus de l'_over-engineering_
 
 Note:
 Il s’agit de garder un certain pragmatisme dans les fonctionnalités réalisées. Ne pas développer un tableau de bord d’Airbus quand une calculette suffit. Prenons l’exemple du principe de KISS (Keep it simple, stupid, Keep it Smart & Simple)
@@ -357,7 +356,7 @@ Toute réalisation n'est achevée que lorsque le test garantissant la conformit�
 
 ### DevOps is
 
-> Tolérance aux pannes
+> Tolérant aux pannes
 
 Note:
 Les Pannes et les erreurs humaines sont inévitables. Par design, on doit les circonscrire et mettre en place les contre-mesures qui rendent ces pannes indolores.
@@ -409,7 +408,7 @@ Le DevOps n'implique pas la polyvalence de tous les acteurs. La coopération ét
 
 ### DevOps is not
 
-> Un Rôle
+> Un rôle
 
 Note:
 Contrairement à une erreur répandue, le DevOps n'est pas un rôle. Comme nous le définissons toute la journée, il s'agit d'un mouvement englobant les devs et les ops.
@@ -484,9 +483,9 @@ On notera que, plus que la DSI elle-même, dans son rôle global, ce sont ses st
 
 - Collaboration
 - Automatisation
-  - automatisation du déploiement
-  - intégration continue
-  - automatisation de l'infrastructure
+  - Automatisation du déploiement
+  - Intégration continue
+  - Automatisation de l'infrastructure
 - Outils
 - Plateformes
 
@@ -509,10 +508,10 @@ Chaque acteur du projet garde sa compétence et son expertise mais doit partager
 
 ### Impacts business
 
-- Money, money, money
-  - Quality isn't cheap
+- _Money, money, money_
+  - _Quality isn't cheap_
 - Une transition lente (à l'echelle de l'IT)
-  - 85% des migrations/adoption DevOps prennent un an
+  - 85% des migrations/adoptions DevOps prennent un an
 - Une décision à bien mûrir
 
 Note:
@@ -534,13 +533,13 @@ Les transitions organisationnelles ne sont pas connues pour être rapides, la mi
 
 - Résolution des points de contention
 - Performance
-  - nombre de déploiements de code
-  - délai de bascule du commit au déploiement
-  - taux d'échec
-  - stabilité des systèmes
-- Amelioration continue
-  - automatisation de la validation des changements
-  - visualisation des métriques de productivité et de qualité
+  - Nombre de déploiements de code
+  - Délai de bascule du commit au déploiement
+  - Taux d'échec
+  - Stabilité des systèmes
+- Amélioration continue
+  - Automatisation de la validation des changements
+  - Visualisation des métriques de productivité et de qualité
 - Flexibilité et agilité
 
 Note:
@@ -571,8 +570,8 @@ Et plus elles travaillent ensemble, plus elles sont heureuses.
 
 ### Bénéfices business
 
-- Time-to-market
-- Customer experience
+- _Time-to-market_
+- Expérience client
 - Résolution de problèmes
 - Temps pour l'innovation
 
@@ -582,7 +581,7 @@ Time-To-Market
 - Amélioration du temps nécessaire à la livraison de résultats
 - C'est probablement le bénéfice que les utilisateurs ou PO comprennent le mieux
   Customer experience
-- 70% des DSI remontent une aélioration de l'XP utilisateur après la mise en place du DevOps
+- 70% des DSI remontent une amélioration de l'XP utilisateur après la mise en place du DevOps
   Résolution de problèmes
 - Plus un problème est long à résoudre, plus la société perd d'argent
   Innovation
