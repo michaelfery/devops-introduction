@@ -59,6 +59,127 @@ center: true
 
 #### Cousin du mouvement Agile
 
+Agilité et DevOps, des mouvements étroitement liés
+
+Note:
+Avant de présenter le DevOps, il est essentiel d'ouvrir une petite parenthèse sur l'agilité, en effet, ces 2 mouvements sont étroitement liés...
+
+--
+
+### Origines
+
+#### Les défis
+
+- L'IT est devenu le principal vecteur de création de valeur<!-- .element: class="fragment" data-fragment-index="1" -->
+- Besoin d'évolution des SI <!-- .element: class="fragment" data-fragment-index="2" -->
+  - innover et s'adapter<!-- .element: class="fragment" data-fragment-index="3" -->
+  - collaborer, s'adapter aux changements<!-- .element: class="fragment" data-fragment-index="4" -->
+
+Note:
+A l'ère de la transformation digitale et de l'essor des technologies numériques, l'IT est devenu le principal vecteur de création de valeur pour les entreprises.
+
+Leurs défis consistent aujourd'hui à faire évoluer les systèmes d'informations, innover et s'adapter à tous les enjeux de mobilité, du cloud, ou encore du big data.
+
+Les organisations se doivent d'être capables de collaborer efficacement, de s'adapter aux changements en toute confiance, tout en réalisant des innovations de manière continue, dans un contexte toujours plus concurrentiel
+
+--
+
+### Origines
+
+#### Les méthodes "traditionnelles"
+
+- Cloisonnement<!-- .element: class="fragment" data-fragment-index="1" -->
+- Feedback tardifs<!-- .element: class="fragment" data-fragment-index="2" -->
+
+Note:
+Revenons sur les méthodes dites "traditionnelles". Au départ, les équipes subissaient un certain cloisonnement, ce qui peut aboutir sur des problématiques de visibilité et de suivi (qu’on appelle “effet tunnel”), ou encore des coûts et des délais mal maîtrisés…
+Lorsque la part d’inconnue est la plus grande, les projets sont moins bien maîtrisés, les hypothèses de travail étant établies en amont uniquement.
+
+Dans un tel contexte, les problèmes apparaissent alors bien tardivement, et il devient compliqué de retrouver une situation sereine.
+
+--
+
+### Origines
+
+#### D'autres modes de fonctionnement
+
+- Cycles itératifs plus courts<!-- .element: class="fragment" data-fragment-index="1" -->
+  - Ajustements plus rapides et plus fréquents<!-- .element: class="fragment" data-fragment-index="2" -->
+  - Fail-Fast<!-- .element: class="fragment" data-fragment-index="3" -->
+- Partage des responsabilités<!-- .element: class="fragment" data-fragment-index="4" -->
+- Communication essentielle<!-- .element: class="fragment" data-fragment-index="5" -->
+
+Note:
+Pour répondre à ces problématiques, le modèle agile apporte d'autres modes de fonctionnement, avec notamment des cycles itératifs plus courts.
+
+Les ajustements deviennent alors plus rapides et plus fréquents, la notion de fail-fast introduit une gestion des erreurs au plus tôt dans le process et permet de changer de cap plus facilement et généralement à moindre coût.
+
+Les responsabilités deviennent partagées entre les différentes parties prenantes, la communication devenant alors essentielle.
+
+--
+
+### Valeurs du Manifeste Agile
+
+Note:
+Pour fermer cette parenthèse sur l'agilité terminons avec les 4 valeurs définis dans le Manifeste Agile.
+
+--
+
+#### Valeurs du Manifeste Agile 1/4
+
+L'attention est concentrée sur les individus et leurs interactions, et non sur les outils et les processus.
+
+--
+
+#### Valeurs du Manifeste Agile 2/4
+
+La priorité est portée sur la collaboration avec le client, notamment la négociation contractuelle. Nous parlerons ici de co-construction
+
+--
+
+#### Valeurs du Manifeste Agile 3/4
+
+Un produit qui fonctionne, le MVP (Minimum Viable Product) est préféré à une documentation exhaustive
+
+--
+
+#### Valeurs du Manifeste Agile 4/4
+
+L'adaptabilité et l'acceptation du changement sont favorisées, la flexibilité devenant une composante essentielle
+
+Note:
+
+Dans la théorie, c'est toute l'organisation qui est concernée pour appliquer ces préceptes
+
+Dans les faits, c'est toute une population qui n'est pas systématiquement incluse dans la démarche. Les Ops sont en effet bien souvent hors du dispositif, d'où l'arrivée du mouvement DevOps
+
+--
+
+### Origines
+
+#### Le DevOps
+
+- Collaboration agile entre :<!-- .element: class="fragment" data-fragment-index="1" -->
+  - Les études et le développement<!-- .element: class="fragment" data-fragment-index="2" -->
+  - La production<!-- .element: class="fragment" data-fragment-index="3" -->
+  - L'exploitation et l'infrastructure<!-- .element: class="fragment" data-fragment-index="4" -->
+  - Les métiers.<!-- .element: class="fragment" data-fragment-index="5" -->
+
+=> Optimiser la phase de livraison d'un produit ou d'un service, en conservant un niveau élevé de confiance et qualité
+<!-- .element: class="fragment" data-fragment-index="6" -->
+
+Note:
+Nous pouvons alors définir le mouvement DevOps comme une démarche de collaboration agile entre plusieurs intervenants :
+
+- Les études et le développement
+- La production
+- L'exploitation et l'infrastructure
+- Les métiers.
+
+Il permettra à une entreprise d'optimiser la phase de livraison d'un produit ou d'un service, en conservant un niveau élevé de confiance et de qualité.
+
+Le DevOps, cousin du mouvement agile peut être vu comme une extension de ce dernier, ses valeurs pouvant être appliquées à toute la chaîne de valeur du produit.
+
 ---
 
 ## Lego 4 DevOps (Atelier)
