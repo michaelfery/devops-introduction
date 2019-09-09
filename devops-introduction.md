@@ -265,49 +265,38 @@ Note:
 
 --
 
-### DevOps is
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
 
---
-
-### DevOps is
-
-> Centré sur le produit utilisateur
+> Un rôle
 
 Note:
-La qualité et la pertinence du produit fourni à l'utilisateur final est la seule chose qui importe.
+Contrairement à une erreur répandue, le DevOps n'est pas un rôle. Comme nous le définissons toute la journée, il s'agit d'un mouvement englobant les Devs et les Ops.
 
 --
 
-### DevOps is
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
 
-> Se concentre sur une réalisation minimale apportant un maximum de valeur
+> Une nouvelle équipe
 
 Note:
-Toute réalisation doit être itérative, pour accélérer l'arrivée de la boucle de feedback. En ce sens, on doit chercher le plus petit élément de réalisation qui apporte le maximum de valeur.
+Comme DevOps n'est pas un rôle, il ne peux pas non plus être une équipe. Le but de cette démarche est de rapprocher et d'améliorer la communication entre les Dev et les Ops. Rajouter une équipe entre les deux serait donc aller à l'encontre de cela.
 
 --
 
-### DevOps is
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
 
-> Réduit la documentation à sa plus juste utilité
+> Faire coder les Ops & administrer des machines aux Dev
 
 Note:
-Elle peut même être remplacée par le partage des outils, des méthodes, du même espace de travail et les rituels de partage de connaissance (stand up meeting, peer-programming, démo).
+Le DevOps n'implique pas la polyvalence de tous les acteurs. La coopération étroite ne doit pas donner lieu à une inversion des rôles. C'est au contraire une façon de reconnaître les forces et les faiblesses de chacun et d'en tirer le meilleur, collectivement.
 
 --
 
-### DevOps is
-
-> You build it, you run it
->
-> -- _Werner Vogels_
-
-Note:
-Les Dev et les Ops sont (co-)responsable de ce qui arrive en Prod (y-compris dans les astreintes).
-
---
-
-### DevOps is
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" -->
 
 > Les Ops sont des facilitateurs, non des limiteurs
 
@@ -316,68 +305,8 @@ Dans les domaines dont il est le garant, l’OPS doit être facilitateur (par so
 
 --
 
-### DevOps is
-
-> Measure Anything, Measure Everything
->
-> -- _Etsy_
-
-Note:
-L’obsession de la mesure et de la traçabilité. Ce qui ne se mesure pas n’est qu’affaire d’opinion.
-
---
-
-### DevOps is
-
-> Plan, do, check, act (PDCA)
-
-Note:
-L'amélioration continue : cette démarche est basée sur l'expérimentation perpétuelle et la mesure du résultat qui en ressort.
-
---
-
-### DevOps is
-
-> Refus de l'_over-engineering_
-
-Note:
-Il s’agit de garder un certain pragmatisme dans les fonctionnalités réalisées. Ne pas développer un tableau de bord d’Airbus quand une calculette suffit. Prenons l’exemple du principe de KISS (Keep it simple, stupid, Keep it Smart & Simple)
-
---
-
-### DevOps is
-
-> Testabilité
-
-Note:
-Toute réalisation n'est achevée que lorsque le test garantissant la conformité de son fonctionnement est associé.
-
---
-
-### DevOps is
-
-> Tolérant aux pannes
-
-Note:
-Les Pannes et les erreurs humaines sont inévitables. Par design, on doit les circonscrire et mettre en place les contre-mesures qui rendent ces pannes indolores.
-
---
-
-### DevOps is not
-
---
-
-### DevOps is not
-
-> Un outil permettant de tout gérer
-
-Note:
-Le partage d'outils doit répondre à un besoin de coopération et d'autonomie et pas seulement au besoin d'industrialisation ou de respect des standards.
-L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni nécessaire ni suffisant pour faire du DevOps, mais vous vous apercevrez que sans c'est quand même bien plus compliqué.
-
---
-
-### DevOps is not
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
 
 > no-Ops
 
@@ -386,7 +315,8 @@ L'automatisation est un vecteur d'autonomisation des acteurs et d'amélioration 
 
 --
 
-### DevOps is not
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
 
 > Les Devs ont tous les droits
 
@@ -397,30 +327,117 @@ L'idée n'est pas d'autoriser tous les Dev à accéder aux ressources critiques,
 
 --
 
-### DevOps is not
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" -->
 
-> Faire coder les Ops & administrer des machines aux Dev
+> Se concentre sur une réalisation minimale apportant un maximum de valeur
 
 Note:
-Le DevOps n'implique pas la polyvalence de tous les acteurs. La coopération étroite ne doit pas donner lieu à une inversion des rôles. C'est au contraire une façon de reconnaître les forces et les faiblesses de chacun et d'en tirer le meilleur, collectivement.
+Toute réalisation doit être itérative, pour accélérer l'arrivée de la boucle de feedback. En ce sens, on doit chercher le plus petit élément de réalisation qui apporte le maximum de valeur.
 
 --
 
-### DevOps is not
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" -->
 
-> Un rôle
+> Réduit la documentation à sa plus juste utilité
 
 Note:
-Contrairement à une erreur répandue, le DevOps n'est pas un rôle. Comme nous le définissons toute la journée, il s'agit d'un mouvement englobant les devs et les ops.
+Elle peut même être remplacée par le partage des outils, des méthodes, du même espace de travail et les rituels de partage de connaissance (stand up meeting, peer-programming, démo).
 
 --
 
-### DevOps is not
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" -->
 
-> Une nouvelle équipe
+> You build it, you run it
+>
+> -- _Werner Vogels_
 
 Note:
-Comme DevOps n'est pas un role, il ne peux etre non plus une équipe. Le but de cette démarche est de rapprocher et d'améliorer la communication entre les Dev et les Ops. Rajouter une équipe entre les deux serait donc aller à l'encontre de cela.
+Les Dev et les Ops sont (co-)responsable de ce qui arrive en Prod (y compris dans les astreintes).
+
+--
+
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" -->
+
+> Tolérant aux pannes
+
+Note:
+Les Pannes et les erreurs humaines sont inévitables. Par design, on doit les circonscrire et mettre en place les contre-mesures qui rendent ces pannes indolores.
+
+--
+
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
+
+> Un outil permettant de tout gérer
+
+Note:
+Le partage d'outils doit répondre à un besoin de coopération et d'autonomie et pas seulement au besoin d'industrialisation ou de respect des standards.
+L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni nécessaire ni suffisant pour faire du DevOps, mais vous vous apercevrez que sans c'est quand même bien plus compliqué.
+
+--
+
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" -->
+
+> Testabilité
+
+Note:
+Toute réalisation n'est achevée que lorsque le test garantissant la conformité de son fonctionnement est associé.
+
+--
+
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" -->
+
+> Centré sur le produit utilisateur
+
+Note:
+La qualité et la pertinence du produit fourni à l'utilisateur final est la seule chose qui importe.
+
+--
+
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" -->
+
+> Measure Anything, Measure Everything
+>
+> -- _Etsy_
+
+Note:
+L’obsession de la mesure et de la traçabilité. Ce qui ne se mesure pas n’est qu’affaire d’opinion.
+
+--
+
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" -->
+
+> Plan, do, check, act (PDCA)
+
+Note:
+L'amélioration continue : cette démarche est basée sur l'expérimentation perpétuelle et la mesure du résultat qui en ressort.
+
+--
+
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" -->
+
+> Refus de l'_over-engineering_
+
+Note:
+Il s’agit de garder un certain pragmatisme dans les fonctionnalités réalisées. Ne pas développer un tableau de bord d’Airbus quand une calculette suffit. Prenons l’exemple du principe de KISS (Keep it simple, stupid, Keep it Smart & Simple)
+
+--
+
+### DevOps
+### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
+
+![DevOps impacts](./media/magic.gif)
+
+Malheureusement... <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ---
 
