@@ -67,7 +67,7 @@ center: true
 
 ---
 
-## Origines ... la scène post-atelier
+## Origines...
 
 Note:
 Débriefer sur l'atelier lego sur DevOps
@@ -209,7 +209,7 @@ Amélioration continue
 
 ### Facteur Humain
 
-- Donner le temps
+- donner le temps
 - partage de responsabilité
 - échange
 - collaboration
@@ -218,7 +218,7 @@ Amélioration continue
 Note:
 Il faut du temps pour évangeliser, accompagner et assimiler
 
-Communication sur les responsabilités de chacuns. Attention un Dev != administrer serveur
+Communication sur les responsabilités de chacun. Attention un Dev != Admin Sys
 
 Améliorer et augmenter les échanges, comme de la co-localisation ou des outils
 
@@ -226,7 +226,7 @@ Partage des informations et des contraintes entre Dev et Ops
 
 collaboration des équipes plutôt que le protectionnisme
 
-Un objectif commun et partagé afin d'instauré une confiance entre les équipes
+Un objectif commun et partagé afin d'instaurer une confiance entre les équipes
 
 --
 
