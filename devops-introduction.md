@@ -32,14 +32,23 @@ center: true
 
 ---
 
+### Michaël Fery
+
+<img width="250" height="250" data-src="media/michael-fery.png"
+    style="background:none; border:none; border-radius: 50%;"
+    alt="Michaël Fery">
+
+Coach Cloud & DevOps
+
+---
+
 ## Agenda
 
-- Introduction
+- Origines
 - Lego 4 DevOps (Atelier)
 - Concepts
-- DevOps is / DevOps is not
-- Impacts
-- Bénéfices
+- Continuous Delivery
+- Impacts & Bénéfices
 - Démo / REx
 - World Café (Atelier)
 - Conclusion
@@ -127,19 +136,21 @@ Pour fermer cette parenthèse sur l'agilité terminons avec les 4 valeurs défin
 
 #### Valeurs du Manifeste Agile 1/4
 
-L'attention est concentrée sur les individus et leurs interactions, et non sur les outils et les processus.
+L'attention est concentrée sur les individus et leurs interactions, plus que sur les outils et les processus.
 
 --
 
 #### Valeurs du Manifeste Agile 2/4
 
-La priorité est portée sur la collaboration avec le client, notamment la négociation contractuelle. Nous parlerons ici de co-construction
+La priorité est portée sur la collaboration avec le client, et non sur la négociation contractuelle. Nous parlerons ici de co-construction
 
 --
 
 #### Valeurs du Manifeste Agile 3/4
 
-Un produit qui fonctionne, le MVP (Minimum Viable Product) est préféré à une documentation exhaustive
+Un produit qui fonctionne est préféré à une documentation exhaustive
+
+Note: MVP
 
 --
 
@@ -451,7 +462,7 @@ L'idée n'est pas d'autoriser tous les Dev à accéder aux ressources critiques,
 ### DevOps
 ### is <!-- .element: class="fragment" data-fragment-index="1" -->
 
-> Se concentre sur une réalisation minimale apportant un maximum de valeur
+> Se concentrer sur une réalisation minimale apportant un maximum de valeur
 
 Note:
 Toute réalisation doit être itérative, pour accélérer l'arrivée de la boucle de feedback. En ce sens, on doit chercher le plus petit élément de réalisation qui apporte le maximum de valeur.
@@ -461,7 +472,7 @@ Toute réalisation doit être itérative, pour accélérer l'arrivée de la bouc
 ### DevOps
 ### is <!-- .element: class="fragment" data-fragment-index="1" -->
 
-> Réduit la documentation à sa plus juste utilité
+> Réduire la documentation à sa plus juste utilité
 
 Note:
 Elle peut même être remplacée par le partage des outils, des méthodes, du même espace de travail et les rituels de partage de connaissance (stand up meeting, peer-programming, démo).
@@ -526,7 +537,7 @@ La qualité et la pertinence du produit fourni à l'utilisateur final est la seu
 
 > Measure Anything, Measure Everything
 >
-> -- _Etsy_
+> -- _Etsy (2011)_
 
 Note:
 L’obsession de la mesure et de la traçabilité. Ce qui ne se mesure pas n’est qu’affaire d’opinion.
@@ -554,9 +565,12 @@ Il s’agit de garder un certain pragmatisme dans les fonctionnalités réalisé
 --
 
 ### DevOps
+
 ### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ![DevOps impacts](./media/magic.gif)
+
+> Magique !
 
 Malheureusement... <!-- .element: class="fragment" data-fragment-index="2" -->
 
