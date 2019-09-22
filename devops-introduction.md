@@ -6,7 +6,6 @@ slideNumber: false
 separator: '^\r?\n---\r?\n$'
 verticalSeparator: '^\r?\n--\r?\n$'
 
-# logoImg: "soat/LOGO_COULEUR_BLANC_BASELINE.png"
 logoImg: ''
 customTheme: 'soat'
 # custom_theme = "reveal-hugo/themes/custom-theme.scss"
@@ -21,14 +20,15 @@ showNotes: false
 
 # Vertical centering of slides
 center: true
+
+pdfSeparateFragments: false
 ---
 
 # DevOps
 
 ## Journée d'acculturation
 
-<!-- .slide: class="title" -->
-<!-- .slide: data-state="title-page"-->
+<!-- .slide: class="title-page"-->
 
 ---
 
@@ -39,6 +39,8 @@ center: true
     alt="Michaël Fery">
 
 Coach Cloud & DevOps
+
+<!-- .slide: class="chapter-page"-->
 
 ---
 
@@ -53,14 +55,13 @@ Coach Cloud & DevOps
 - World Café (Atelier)
 - Conclusion
 
-<!-- .slide: class="title" -->
-<!-- .slide: data-state="title-page"-->
+<!-- .slide: class="chapter-page"-->
 
 ---
 
 ## Introduction
 
-<!-- .slide: data-state="chapter-page"-->
+<!-- .slide: class="chapter-page"-->
 
 --
 
@@ -195,7 +196,7 @@ Le DevOps, cousin du mouvement agile peut être vu comme une extension de ce der
 
 ## Lego 4 DevOps (Atelier)
 
-<!-- .slide: data-state="chapter-page" -->
+<!-- .slide: class="chapter-page" -->
 
 ---
 
@@ -203,6 +204,8 @@ Le DevOps, cousin du mouvement agile peut être vu comme une extension de ce der
 
 Note:
 Débriefer sur l'atelier lego sur DevOps
+
+<!-- .slide: class="chapter-page" -->
 
 --
 
@@ -272,7 +275,7 @@ DevOps est une Culture
 
 Stop opposition Dev vs Ops
 
-<!-- .slide: data-state="chapter-page" -->
+<!-- .slide: class="chapter-page" -->
 
 --
 
@@ -393,7 +396,7 @@ Note:
 
 ## DevOps is / DevOps is not
 
-<!-- .slide: data-state="chapter-page"-->
+<!-- .slide: class="chapter-page"-->
 
 --
 
@@ -578,7 +581,7 @@ Malheureusement... <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ## Continuous Delivery
 
-<!-- .slide: data-state="chapter-page"-->
+<!-- .slide: class="chapter-page"-->
 
 Note:
 Rappel DevOps: union des gens, des process et des outils pour délivrer RAPIDEMENT de la valeur aux utilisateurs finaux.
@@ -621,7 +624,7 @@ Certaines équipes techniques d’applications de niveau mondial sont en mesure 
 
 ## Impacts
 
-<!-- .slide: data-state="chapter-page"-->
+<!-- .slide: class="chapter-page"-->
 
 Note:
 Le DevOps arrive seconde vague de l'émergence de l'agilité au sein des équipes projets, du cloud et des outils type conteneurs.
@@ -669,15 +672,11 @@ Chaque acteur du projet garde sa compétence et son expertise mais doit partager
 Note:
 Les transitions organisationnelles ne sont pas connues pour être rapides, la mise en place de l'agilité au préalable peut aider
 
---
-
-![DevOps impacts](./media/devops-impacts-kms-technology.png)
-
 ---
 
 ## Bénéfices
 
-<!-- .slide: data-state="chapter-page"-->
+<!-- .slide: class="chapter-page"-->
 
 --
 
@@ -743,7 +742,7 @@ Time-To-Market
 
 ## Démo / REx
 
-<!-- .slide: data-state="chapter-page"-->
+<!-- .slide: class="chapter-page"-->
 
 --
 
@@ -753,10 +752,10 @@ Time-To-Market
 
 ## World Café (Atelier)
 
-<!-- .slide: data-state="chapter-page"-->
+<!-- .slide: class="chapter-page"-->
 
 ---
 
 ## Conclusion
 
-<!-- .slide: data-state="chapter-page"-->
+<!-- .slide: class="chapter-page"-->

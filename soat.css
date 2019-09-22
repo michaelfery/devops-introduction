@@ -27,12 +27,21 @@
 }
 
 .reveal {
-  --main-bg-color: #00AD7D;
-  --main-title-color: #57FFD0;
+  --main-bg-color: white;
+  --main-accent-color: #00e6a7;
+  --main-accent-dark-color: #00AD7D;
+  --main-dark-color: #110E28;
+  --secondary-color: #5B9BD5;
+
+  --main-bg-color: white;
+  --main-title-color: var(--main-accent-color);
   --main-subtitle-color: white;
-  --main-font-color: black;
-  --main-slide-title-color: #00AD7D;
-  --main-progress-color: #57FFD0;
+  --main-font-color: var(--main-dark-color);
+  --main-slide-title-color: var(--main-accent-color);
+  --main-progress-color: var(--main-accent-color);
+  --chapter-bg-color: var(--main-dark-color);
+  --chapter-title-color: var(--main-accent-color);
+  --chapter-content-color: white;
 }
 
 /*********************************************
@@ -67,17 +76,13 @@
 .reveal .slides .title h6 {
   color: var(--main-subtitle-color);
 }
-
- /* .reveal .slides .title {
-  padding: 0 0 13vh 0;
- } */
  
  .reveal .slides .title h1 {
    text-transform: uppercase;
  }
 
  .reveal .slides .title ul li {
-   color: white;
+   color: var(--main-subtitle-color);
  }
 
   /*********************************************
@@ -92,16 +97,6 @@
   {
     color: var(--main-slide-title-color);
   }
-
- .reveal .slides ul li {
-   /* color: #BCD231; */
-   /* line-height: 4.5vh !important; */
-   /* margin: 0 0 1.2vh 0 !important; */
- }
-
- .reveal .slides ul li p {
-   /* margin: 15px 0 0px 0; */
- }
  
  .reveal .slides ul li ul {
    font-size: 60%;
@@ -116,21 +111,6 @@
   * FOOTER STYLES
   *********************************************/
 
-.reveal #title-footer {
-  /* background-color: #262626 !important; */
-  /* height: 7vh !important; */
-  /* background-image: url('/soat/bottom.png') !important; */
-  /* background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
-  background-position: bottom right !important;  */
-}
-
-.reveal #title-footer p {
-  /* line-height: 6.6vh !important;
-  vertical-align: middle !important;
-  margin: 0 10vh 0 0 !important; */
-}
-
 .reveal footer p a {
   color: white;
 }
@@ -140,28 +120,25 @@
 }
 
 html.title-page div.slide-background-content {
-  background-image: url("/soat/title-page-bg.png") !important;
-  background-size: cover;
-  background-position: bottom right !important;
+  /* background-image: url("/soat/title-page-bg.png") !important; */
+  /* background-size: cover; */
+  /* background-position: bottom left !important; */
 }
 html.title-page .title h1,
 html.title-page .title h2 {
-  max-width: 70%;
+  /* max-width: 70%; */
 }
 
-html.chapter-page div.slide-background-content {
-  background-color: #63BDA2 !important;
-}
 html.chapter-page h1,
 html.chapter-page h2 {
-  color: white !important;
-  text-align: left !important;
+  color: var(--main-subtitle-color);
+  /* text-align: left !important; */
 }
 
 html div.slide-background-content{
-  background-image: url("/soat/main-page-bg.png") !important;
-  background-size: contain;
-  background-position: bottom right !important;
+  /* background-image: url("/soat/main-page-bg.png") !important; */
+  /* background-size: contain;
+  background-position: bottom right !important; */
 }
 
 .reveal .progress {
@@ -189,10 +166,95 @@ html div.slide-background-content{
     -webkit-print-color-adjust: exact; 
 } */
 
+
+
+.reveal .slides .chapter-page h2,
+.reveal .slides .chapter-page h3,
+.reveal .slides .chapter-page h4,
+.reveal .slides .chapter-page h5,
+.reveal .slides .chapter-page h6 {
+  color: var(--chapter-title-color) !important;
+}
+
+.reveal .slides .chapter-page {
+  color: var(--chapter-content-color);
+}
+
+  div.present div.slide-background-content {
+    background-color: var(--main-bg-color);
+    background-image: url("/soat/LOGO_COULEUR_BASELINE.png");
+    background-size: cover;
+    background-size: 10%;
+    background-position: bottom 10px right 10px;
+  }
+
+  div.title-page div.slide-background-content {
+    background-image: url("/soat/title-page-bg.png");
+    background-size: cover;
+    background-position: right bottom;
+  }
+
+  div.chapter-page div.slide-background-content {
+    background-color: var(--chapter-bg-color);
+    background-image: url("/soat/LOGO_COULEUR_BLANC_BASELINE.png");
+    background-size: cover;
+    background-size: 10%;
+    background-position: bottom 10px right 10px;
+  }
+
+  div.chapter-page-2-columns div.slide-background-content {
+    background: linear-gradient(90deg, var(--main-dark-color) 50%, white 50%);
+  }
+  section.chapter-page-2-columns {
+    width: 50% !important;
+  }
+
+/*********************************************
+ * PRINT BACKGROUND
+ *********************************************/
 @media print {
-  html.title-page div.slide-background-content {
-    background-color: white !important;
-    background-image: none !important;
+  /* .slide-background {
     -webkit-print-color-adjust: exact; 
   }
+
+  .reveal {
+    width: auto !important;
+    height: auto !important;
+    overflow: hidden !important;
+  }
+  .reveal .slides {
+    position: static;
+    width: 100% !important;
+    height: auto !important;
+    zoom: 1 !important;
+  
+    left: auto;
+    top: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+  
+    overflow: visible;
+    display: block;
+  
+    perspective: none;
+    perspective-origin: 50% 50%;
+  }
+  
+  .reveal .slides .pdf-page {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  
+    page-break-after: always;
+  }
+
+  .reveal .slide-background {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: auto !important;
+  } */
 }
