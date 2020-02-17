@@ -2,14 +2,19 @@
 
 Séminaire d'acculturation DevOps
 
-## Présentation Reveal.js
+## Présentation Marp
 
-Pour utiliser les slides de la formation vous aurez besoin d'utiliser [Reveal.Js](https://revealjs.com).
+Pour utiliser les slides de la formation vous aurez besoin d'utiliser [Marp](https://marpit.marp.app/).
 L'extension VS Code vous sera normalement proposée automatiquement.
-Une fois l'extension installée vous n'aurez qu'à cliquer sur l'onglet Reveal.
 
-![image text](/media/reveal-extension.png)
+En ouvrant la fenêtre de Preview du fichier markdown, vous pourrez visualiser un pré-rendu.
 
-Dnas la fenêtre Reveal vous pourrez alors visualiser les slides de votre présentation et démarrer l'export ou la visualisation directe depuis votre browser.
+Pour générer les slides au format pdf, ppt ou même générer l'image de la page de titre, vous pouvez utiliser les commandes 
 
-![image text](/media/reveal-extension-usage.png)
+```bash
+npm run-script og-image
+npm run-script pdf
+npm run-script pptx
+```
+
+A chaque commit une release sera créée avec le deck de slides aux format pdf et pptx en utilisant Github Actions.
