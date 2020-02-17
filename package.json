@@ -1,0 +1,21 @@
+{
+  "name": "devops-introduction",
+  "version": "0.1.0",
+  "author": "Michael Fery",
+  "license": "WTFPL",
+  "private": true,
+  "scripts": {
+    "build": "rimraf deck && npm run -s og-image && npm run -s pptx && npm run -s pdf",
+    "og-image": "marp --image png devops-introduction.md -o deck/devops-introduction.png --allow-local-files",
+    "pdf": "marp --pdf devops-introduction.md -o deck/devops-introduction.pdf --allow-local-files -- devops-introduction.md",
+    "pptx": "marp --pptx devops-introduction.md -o deck/devops-introduction.pptx --allow-local-files",
+    "start": "marp -ps devops-introduction.md"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.16.1",
+    "rimraf": "^3.0.0"
+  },
+  "marp": {
+    "themeSet": "./themes"
+  }
+}
