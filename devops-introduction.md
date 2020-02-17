@@ -1,5 +1,5 @@
 ---
-marp: true
+marp: false
 theme: soat
 ---
 
@@ -13,7 +13,7 @@ theme: soat
 
 <!-- _class: chapter-page -->
 
-## Agenda
+# Agenda
 
 - Origines
 - Lego 4 DevOps (Atelier)
@@ -28,13 +28,13 @@ theme: soat
 
 <!-- _class: chapter-page -->
 
-## Introduction
+# Introduction
 
 ---
 
-### Origines
+## Origines
 
-#### Cousin du mouvement Agile
+### Cousin du mouvement Agile
 
 Agilité et DevOps, des mouvements étroitement liés
 
@@ -42,14 +42,14 @@ Agilité et DevOps, des mouvements étroitement liés
 
 ---
 
-### Origines
+## Origines
 
-#### Les défis
+### Les défis
 
-- L'IT est devenu le principal vecteur de création de valeur<!-- .element: class="fragment" data-fragment-index="1" -->
-- Besoin d'évolution des SI <!-- .element: class="fragment" data-fragment-index="2" -->
-  - innover et s'adapter<!-- .element: class="fragment" data-fragment-index="3" -->
-  - collaborer, s'adapter aux changements<!-- .element: class="fragment" data-fragment-index="4" -->
+- L'IT est devenu le principal vecteur de création de valeur
+- Besoin d'évolution des SI 
+  - innover et s'adapter
+  - collaborer, s'adapter aux changements
 
 <!-- A l'ère de la transformation digitale et de l'essor des technologies numériques, l'IT est devenu le principal vecteur de création de valeur pour les entreprises. -->
 
@@ -59,12 +59,12 @@ Les organisations se doivent d'être capables de collaborer efficacement, de s'a
 
 ---
 
-### Origines
+## Origines
 
-#### Les méthodes "traditionnelles"
+### Les méthodes "traditionnelles"
 
-- Cloisonnement<!-- .element: class="fragment" data-fragment-index="1" -->
-- Feedback tardifs<!-- .element: class="fragment" data-fragment-index="2" -->
+- Cloisonnement
+- Feedback tardifs
 
 <!-- Revenons sur les méthodes dites "traditionnelles". Au départ, les équipes subissaient un certain cloisonnement, ce qui peut aboutir sur des problématiques de visibilité et de suivi (qu’on appelle “effet tunnel”), ou encore des coûts et des délais mal maîtrisés…
 Lorsque la part d’inconnue est la plus grande, les projets sont moins bien maîtrisés, les hypothèses de travail étant établies en amont uniquement.
@@ -73,14 +73,14 @@ Dans un tel contexte, les problèmes apparaissent alors bien tardivement, et il 
 
 ---
 
-### Origines
+## Origines
 
-#### D'autres modes de fonctionnement
+### D'autres modes de fonctionnement
 
-- Cycles itératifs plus courts<!-- .element: class="fragment" data-fragment-index="1" -->
-  - Ajustements plus rapides et plus fréquents<!-- .element: class="fragment" data-fragment-index="2" -->
-  - Fail-Fast<!-- .element: class="fragment" data-fragment-index="3" -->
-- Partage des responsabilités<!-- .element: class="fragment" data-fragment-index="4" -->
+- Cycles itératifs plus courts
+  - Ajustements plus rapides et plus fréquents
+  - Fail-Fast
+- Partage des responsabilités
 - Communication essentielle<!-- .element: class="fragment" data-fragment-index="5" -->
 
 <!-- Pour répondre à ces problématiques, le modèle agile apporte d'autres modes de fonctionnement, avec notamment des cycles itératifs plus courts.
@@ -91,35 +91,17 @@ Les responsabilités deviennent partagées entre les différentes parties prenan
 
 ---
 
-### Valeurs du Manifeste Agile
+## Valeurs du Manifeste Agile
 
 <!-- Pour fermer cette parenthèse sur l'agilité terminons avec les 4 valeurs définis dans le Manifeste Agile. -->
 
----
+1. L'attention est concentrée sur les individus et leurs interactions, plus que sur les outils et les processus.
 
-#### Valeurs du Manifeste Agile 1/4
+2. La priorité est portée sur la collaboration avec le client, et non sur la négociation contractuelle. Nous parlerons ici de co-construction
 
-L'attention est concentrée sur les individus et leurs interactions, plus que sur les outils et les processus.
+3. Un produit qui fonctionne est préféré à une documentation exhaustive<!-- MVP -->
 
----
-
-#### Valeurs du Manifeste Agile 2/4
-
-La priorité est portée sur la collaboration avec le client, et non sur la négociation contractuelle. Nous parlerons ici de co-construction
-
----
-
-#### Valeurs du Manifeste Agile 3/4
-
-Un produit qui fonctionne est préféré à une documentation exhaustive
-
-<!-- MVP -->
-
----
-
-#### Valeurs du Manifeste Agile 4/4
-
-L'adaptabilité et l'acceptation du changement sont favorisées, la flexibilité devenant une composante essentielle
+4. L'adaptabilité et l'acceptation du changement sont favorisées, la flexibilité devenant une composante essentielle
 
 <!-- Dans la théorie, c'est toute l'organisation qui est concernée pour appliquer ces préceptes
 
@@ -127,17 +109,17 @@ Dans les faits, c'est toute une population qui n'est pas systématiquement inclu
 
 ---
 
-### Origines
+## Origines
 
-#### Le DevOps
+### Le DevOps
 
-- Collaboration agile entre :<!-- .element: class="fragment" data-fragment-index="1" -->
-  - Les études et le développement<!-- .element: class="fragment" data-fragment-index="2" -->
-  - La production<!-- .element: class="fragment" data-fragment-index="3" -->
-  - L'exploitation et l'infrastructure<!-- .element: class="fragment" data-fragment-index="4" -->
+- Collaboration agile entre :
+  - Les études et le développement
+  - La production
+  - L'exploitation et l'infrastructure
   - Les métiers.<!-- .element: class="fragment" data-fragment-index="5" -->
 
-=> Optimiser la phase de livraison d'un produit ou d'un service, en conservant un niveau élevé de confiance et qualité
+⏩ Optimiser la phase de livraison d'un produit ou d'un service, en conservant un niveau élevé de confiance et qualité
 <!-- .element: class="fragment" data-fragment-index="6" -->
 
 <!-- Nous pouvons alors définir le mouvement DevOps comme une démarche de collaboration agile entre plusieurs intervenants :
@@ -153,45 +135,45 @@ Le DevOps, cousin du mouvement agile peut être vu comme une extension de ce der
 
 ---
 
-## Lego 4 DevOps (Atelier)
+# Lego 4 DevOps (Atelier)
 
 <!-- _class: chapter-page -->
 
 ---
 
-## Origines...
+# Origines...
 
 <!-- Débriefer sur l'atelier lego sur DevOps -->
 
 ---
 
-### Ce que veulent les Dev
+## Ce que veulent les Dev
 
 - Le développement de nouvelles fonctionnalités<!-- .element: class="fragment fade-in" data-fragment-index="1" -->
 - La qualité (non-régression, nombre de <!-- .element: class="fragment fade-in" data-fragment-index="2" -->_bugs_<!-- .element: class="fragment fade-in" data-fragment-index="2" --> réduit)<!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 - La rapidité de mise à disposition aux utilisateurs finaux<!-- .element: class="fragment fade-in" data-fragment-index="3" -->
 - Le<!-- .element: class="fragment fade-in" data-fragment-index="4" --> _feedback_<!-- .element: class="fragment fade-in" data-fragment-index="4" -->
 
-Culture du **produit** en y apportant du **changement**
+⏩ Culture du **produit** en y apportant du **changement**
 
 <!-- .element: class="fragment fade-in" data-fragment-index="5" -->
 
 ---
 
-### Ce que veulent les Ops
+## Ce que veulent les Ops
 
 - La stabilité et la robustesse<!-- .element: class="fragment fade-in" data-fragment-index="1" -->
 - La maîtrise<!-- .element: class="fragment fade-in" data-fragment-index="2" -->
 - La performance et la sécurité<!-- .element: class="fragment fade-in" data-fragment-index="3" -->
 - Les possibilités d'industrialisation avec une certaine efficience économique<!-- .element: class="fragment fade-in" data-fragment-index="4" -->
 
-Culture du **service** en y apportant de la **stabilité**
+⏩ Culture du **service** en y apportant de la **stabilité**
 
 <!-- .element: class="fragment fade-in" data-fragment-index="5" -->
 
 ---
 
-### Le mur de la confusion
+## Le mur de la confusion
 
 ![Le mur de la confusion](./media/mur-de-la-confusion.png)
 
@@ -201,7 +183,7 @@ C'est ce qu'on appelle le mur de la confusion. -->
 
 ---
 
-### Les causes de la confusion
+## Les causes de la confusion
 
 - Objectifs non alignés
 - Organisation en silo de ces deux équipes
@@ -213,15 +195,11 @@ C'est ce qu'on appelle le mur de la confusion. -->
 
 <!-- _class: chapter-page -->
 
-## Concepts
+# Concepts
 
 DevOps **n’est pas** une **méthode**
 
-<!-- .element: class="fragment" data-fragment-index="1" -->
-
 C'est une **culture**
-
-<!-- .element: class="fragment" data-fragment-index="2" -->
 
 <!-- Le DevOps est né. On le définit ?
 
@@ -233,13 +211,11 @@ Stop opposition Dev vs Ops -->
 
 ---
 
-### Définition
+## Définition
 
 > DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.
 >
 > -- _Donovan Brown_
-
-<!-- .element: class="fragment" data-fragment-index="1" -->
 
 <!-- Donovan Brown, responsable DevOps chez Microsoft
 
@@ -253,7 +229,7 @@ Agile++ -->
 
 ---
 
-### Principe Agile
+## Principe Agile
 
 > Notre plus haute priorité est de satisfaire le client en livrant rapidement et régulièrement des fonctionnalités à grande valeur ajoutée.
 >
@@ -271,7 +247,7 @@ Et mes objectifs ? -->
 
 ---
 
-### Besoin
+## Besoin
 
 Apporter de la valeur aux utilisateurs finaux plus rapidement et de manière plus sécurisante :
 
@@ -293,7 +269,7 @@ Amélioration continue -->
 
 ---
 
-### Facteur Humain
+## Facteur Humain
 
 - Donner le temps
 - Partage de responsabilité
@@ -314,14 +290,14 @@ Un objectif commun et partagé afin d'instaurer une confiance entre les équipes
 
 ---
 
-### Processus
+## Processus
 
 - Plus d'échanges au plus tôt afin de connaitre les besoins et les contraintes des équipes
 - Première boucle de _feedback_
 
 ---
 
-### Outils
+## Outils
 
 - Outils de communication (tickets, discussion, _meetings_, ...)
 - Methodes communes
@@ -331,7 +307,7 @@ Un objectif commun et partagé afin d'instaurer une confiance entre les équipes
 
 ---
 
-### CALMS
+## CALMS
 
 - _**C**ulture_
 - _**A**utomation_
@@ -345,12 +321,15 @@ Un objectif commun et partagé afin d'instaurer une confiance entre les équipes
 
 <!-- _class: chapter-page -->
 
-## DevOps is / DevOps is not
+# DevOps is / DevOps is not
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
+<!-- _class: centered-page -->
+
+# DevOps
+
+## is
 
 > Un rôle
 
@@ -358,8 +337,9 @@ Un objectif commun et partagé afin d'instaurer une confiance entre les équipes
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Une nouvelle équipe
 
@@ -367,8 +347,9 @@ Un objectif commun et partagé afin d'instaurer une confiance entre les équipes
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Faire coder les Ops & administrer des machines aux Dev
 
@@ -376,8 +357,9 @@ Un objectif commun et partagé afin d'instaurer une confiance entre les équipes
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Les Ops sont des facilitateurs, non des limiteurs
 
@@ -385,8 +367,9 @@ Un objectif commun et partagé afin d'instaurer une confiance entre les équipes
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > no-Ops
 
@@ -394,8 +377,9 @@ Un objectif commun et partagé afin d'instaurer une confiance entre les équipes
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Les Devs ont tous les droits
 
@@ -405,8 +389,9 @@ L'idée n'est pas d'autoriser tous les Dev à accéder aux ressources critiques,
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Se concentrer sur une réalisation minimale apportant un maximum de valeur
 
@@ -414,8 +399,9 @@ L'idée n'est pas d'autoriser tous les Dev à accéder aux ressources critiques,
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Réduire la documentation à sa plus juste utilité
 
@@ -423,8 +409,9 @@ L'idée n'est pas d'autoriser tous les Dev à accéder aux ressources critiques,
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > You build it, you run it
 >
@@ -434,8 +421,9 @@ L'idée n'est pas d'autoriser tous les Dev à accéder aux ressources critiques,
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Tolérant aux pannes
 
@@ -443,8 +431,9 @@ L'idée n'est pas d'autoriser tous les Dev à accéder aux ressources critiques,
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Un outil permettant de tout gérer
 
@@ -453,8 +442,9 @@ L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni 
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Testabilité
 
@@ -462,8 +452,9 @@ L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni 
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Centré sur le produit utilisateur
 
@@ -471,8 +462,9 @@ L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni 
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Measure Anything, Measure Everything
 >
@@ -482,8 +474,9 @@ L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni 
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Plan, do, check, act (PDCA)
 
@@ -491,8 +484,9 @@ L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni 
 
 ---
 
-### DevOps
-### is <!-- .element: class="fragment" data-fragment-index="1" -->
+# DevOps
+
+## is
 
 > Refus de l'_over-engineering_
 
@@ -500,36 +494,34 @@ L'usage d'un outil fréquemment utilisé dans les organisations DevOps n'est ni 
 
 ---
 
-### DevOps
+# DevOps
 
-### is <!-- .element: class="fragment" data-fragment-index="1" --> _not_ <!-- .element: class="fragment" data-fragment-index="1" -->
+## is
 
 ![DevOps impacts](./media/magic.gif)
 
 > Magique !
 
-Malheureusement... <!-- .element: class="fragment" data-fragment-index="2" -->
+Malheureusement...
 
 ---
 
 <!-- _class: chapter-page -->
 
-## Continuous Delivery
+# Continuous Delivery
 
 <!-- Rappel DevOps: union des gens, des process et des outils pour délivrer RAPIDEMENT de la valeur aux utilisateurs finaux.
 Un processus de livraison continu implique de pouvoir livrer à tout moment, avec une qualité élevée. Cela contraste avec ce que l'on peut voir en général. -->
 
 ---
 
-## Continuous Delivery: Pourquoi ?
+# Continuous Delivery: Pourquoi ?
 
 On peut publier le correctif ?
 
-<!-- .element: class="fragment" data-fragment-index="1" -->
-
-- NON! Fred est en vacances et c'est lui qui a les droits<!-- .element: class="fragment" data-fragment-index="2" -->
-- NON! Nous n’avons pas terminé le cycle complet d’assurance qualité<!-- .element: class="fragment" data-fragment-index="3" -->
-- NON! Le processus de publication n'est pas clair<!-- .element: class="fragment" data-fragment-index="4" -->
+- NON! Fred est en vacances et c'est lui qui a les droits
+- NON! Nous n’avons pas terminé le cycle complet d’assurance qualité
+- NON! Le processus de publication n'est pas clair
 
 <!-- Prenons l'exemple d'une application mobile.
 NON! Fred est en vacances et il est le seul membre de l’équipe à pouvoir créer, signer pour distribution et déposer sur le store.
@@ -539,12 +531,12 @@ Cela vous semble familier? -->
 
 ---
 
-## Continuous Delivery: Et chez vous ?
+# Continuous Delivery: Et chez vous ?
 
-- À quelle fréquence publiez-vous des mises à jour?<!-- .element: class="fragment" data-fragment-index="1" -->
-  - Quelques fois par an? Trimestriel? Mensuel, bi-hebdomadaire? Tous les jours? Plusieurs fois par jour?<!-- .element: class="fragment" data-fragment-index="2" -->
-- C'est absurbe, non ?<!-- .element: class="fragment" data-fragment-index="3" -->
-- Vraiment ?!<!-- .element: class="fragment" data-fragment-index="4" -->
+- À quelle fréquence publiez-vous des mises à jour?
+  - Quelques fois par an? Trimestriel? Mensuel, bi-hebdomadaire? Tous les jours? Plusieurs fois par jour?
+- C'est absurbe, non ?
+- Vraiment ?!
 
 <!-- Pensez à l'une de vos applications. À quelle fréquence publiez-vous des mises à jour? Quelques fois par an? Trimestriel? Mensuel, bi-hebdomadaire? Tous les jours? Plusieurs fois par jour? Non! C'est absurde, non?
 Est-ce vraiment absurde ?
@@ -554,7 +546,7 @@ Certaines équipes techniques d’applications de niveau mondial sont en mesure 
 
 <!-- _class: chapter-page -->
 
-## Impacts
+# Impacts
 
 <!-- Le DevOps arrive seconde vague de l'émergence de l'agilité au sein des équipes projets, du cloud et des outils type conteneurs.
 Le déclencheur est donc le suivant : un choc de productivité et d’agilité.
@@ -563,7 +555,7 @@ On notera que, plus que la DSI elle-même, dans son rôle global, ce sont ses st
 
 ---
 
-### Impacts organisationnels
+## Impacts organisationnels
 
 - Collaboration
 - Automatisation
@@ -579,7 +571,7 @@ Besoin de plateformes adaptées (Cloud, Conteneurs, ...) pour faciliter l'automa
 
 ---
 
-### Impacts humains
+## Impacts humains
 
 - Faire accepter le changement
 - Culture du partage
@@ -588,7 +580,7 @@ Besoin de plateformes adaptées (Cloud, Conteneurs, ...) pour faciliter l'automa
 
 ---
 
-### Impacts business
+## Impacts business
 
 - _Money, money, money_
   - _Quality isn't cheap_
@@ -606,11 +598,11 @@ Besoin de plateformes adaptées (Cloud, Conteneurs, ...) pour faciliter l'automa
 
 <!-- _class: chapter-page -->
 
-## Bénéfices
+# Bénéfices
 
 ---
 
-### Bénéfices organisationnels
+## Bénéfices organisationnels
 
 - Résolution des points de contention
 - Performance
@@ -632,7 +624,7 @@ Besoin de plateformes adaptées (Cloud, Conteneurs, ...) pour faciliter l'automa
 
 ---
 
-### Bénéfices humains
+## Bénéfices humains
 
 - Efficacité
 - Estime de soi
@@ -648,7 +640,7 @@ Et plus elles travaillent ensemble, plus elles sont heureuses. -->
 
 ---
 
-### Bénéfices business
+## Bénéfices business
 
 - _Time-to-market_
 - Expérience client
@@ -670,7 +662,7 @@ Et plus elles travaillent ensemble, plus elles sont heureuses. -->
 
 <!-- _class: chapter-page -->
 
-## Démo / REx
+# Démo / REx
 
 ---
 
@@ -678,12 +670,12 @@ Et plus elles travaillent ensemble, plus elles sont heureuses. -->
 
 ---
 
-## World Café (Atelier)
+# World Café (Atelier)
 
 <!-- _class: chapter-page -->
 
 ---
 
-## Conclusion
+# Conclusion
 
 <!-- _class: chapter-page -->
