@@ -23,7 +23,9 @@ jobs:
           name: deck
           path: deck
       - run: zip -r deck.zip ./deck
+        if: startsWith(github.ref, 'refs/tags/') # This step runs only when tags are created
       - name: Create Release
+        if: startsWith(github.ref, 'refs/tags/') # This step runs only when tags are created
         id: create_release
         uses: softprops/action-gh-release@v1
         env:
